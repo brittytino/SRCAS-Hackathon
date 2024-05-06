@@ -169,19 +169,19 @@ export default function Home() {
             </p>
             <div className="flex gap-6">
               <SocialMediaIcon
-                href="https://www.instagram.com/hackbyte.tpc/"
+                href="#"
                 Icon={InstagramLogoIcon}
               />
               <SocialMediaIcon
-                href="https://twitter.com/HackbyteTPC"
+                href="#"
                 Icon={TwitterLogoIcon}
               />
               <SocialMediaIcon
-                href="https://www.linkedin.com/company/bitbyte-tpc/"
+                href="#"
                 Icon={LinkedInLogoIcon}
               />
               <SocialMediaIcon
-                href="https://discord.gg/NTueHjdPn8"
+                href="#"
                 Icon={DiscordLogoIcon}
               />
             </div>
@@ -215,14 +215,14 @@ export default function Home() {
                   className="text-center text-[#F5F0D8] text-3xl lg:text-4xl 
                     font-medium leading-[44px]"
                 >
-                  Why participate in Hackbyte?
+                  Why participate in Hacksphere?
                 </p>
               </div>
               <p
                 className="text-center text-[#D1CAC7] text-lg lg:text-xl 
                   font-normal font-['Inter'] leading-[30px]"
               >
-                HackByte 2.0 promises a wonderful experience to the
+                Hacksphere promises a wonderful experience to the
                 participants.
               </p>
             </div>
@@ -280,7 +280,7 @@ export default function Home() {
                 className="max-w-[30rem] text-black text-base md:text-sm lg:text-lg 
                 font-normal font-['Inter'] leading-6 sm:leading-7 tracking-tight"
               >
-                To stay up-to-date with HackByte 2.0, consider subscribing to
+                To stay up-to-date with Hacksphere, consider subscribing to
                 our mailing list. Helps us share important updates right away
                 with hackers and enthusiasts alike !
               </p>
@@ -320,7 +320,7 @@ export default function Home() {
                   className=" text-black text-base md:text-sm lg:text-lg font-normal 
                   font-['Inter'] leading-6 sm:leading-7 tracking-tight"
                 >
-                  Be the first ones to register for HackByte 2.0
+                  Be the first ones to register for Hacksphere 
                 </p>
               </div>
             </div>

@@ -62,13 +62,7 @@ export default function Contact() {
             <p className="text-[#F5F0D8] font-normal font-['Inter'] text-[1.5rem] md:text-[1.875rem]">
               Reaching IIIT Jabalpur
             </p>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3174.631325012539!2d80.02390068793628!3d23.17681212828739!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3981a94397365dd3%3A0x5f9aeb812c2678c9!2sIIITDM%20Jabalpur!5e0!3m2!1sen!2sin!4v1696615484249!5m2!1sen!2sin"
-              className="w-full h-full md:h-[25rem] border-0 rounded-[1rem]"
-              allowFullScreen=""
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4010209.736124167!2d74.47821057772867!3d11.022080408704667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba85849d74c3695%3A0x9153ec3168293ec5!2sSri%20Ramakrishna%20College%20of%20Arts%20%26%20Science!5e0!3m2!1sen!2sin!4v1714994879702!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
 
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3">
@@ -90,8 +84,7 @@ export default function Contact() {
                   By Train
                 </p>
                 <p className="text-[#D1CAC7] font-['Inter'] text-[1rem] font-normal md:text-[1.125rem]">
-                  Book tickets from IRCTC : The campus is 10kms from the Railway
-                  Terminal and auto fare is usually around ₹200-₹250.
+                  Book tickets from IRCTC : The campus is in Central and auto fare is usually around ₹100-₹150.
                 </p>
               </div>
             </div>
@@ -116,9 +109,9 @@ export default function Contact() {
                 <p className="text-[#D1CAC7] font-['Inter'] text-[1rem] font-normal md:text-[1.125rem]">
                   Daily flights from{" "}
                   <span className="font-[600]">
-                    Delhi, Mumbai, Hyderabad, Indore and Bilaspur.
+                    Chennai, Salem, BangloreDelhi, Mumbai, Hyderabad,.
                   </span>{" "}
-                  From <span className="font-[600]">Bangalore</span>, connecting
+                  From <span className="font-[600]">Salem & Bangalore</span>, connecting
                   flights are available.
                 </p>
               </div>
@@ -143,12 +136,12 @@ export default function Contact() {
                 </p>
                 <p className="text-[#D1CAC7] font-['Inter'] text-[1rem] font-normal md:text-[1.125rem]">
                   Only suggested if you live around{" "}
-                  <span className="font-[600]">8-10hrs</span> from Jabalpur.{" "}
+                  <span className="font-[600]">8-10hrs</span> from Banglore.{" "}
                   <span className="font-[600]">
-                    ISBT (Pandit Deen Dayal Bus Stand)
+                    Gandhipuram Bus Stand
                   </span>{" "}
-                  is around 13km from the venue, auto fare is usually around{" "}
-                  <span className="font-[600]">₹400-₹450</span>.
+                  is around 5km from the venue, auto fare is usually around{" "}
+                  <span className="font-[600]">₹100-₹150</span>.
                 </p>
               </div>
             </div>
@@ -164,12 +157,12 @@ export default function Contact() {
               font-normal text-[1rem] md:flex-row lg:text-[1.5rem]"
               >
                 <div className="flex flex-col items-start gap-2">
-                  <p>+91 89498 47292</p>
-                  <p>Samyak Bhargava</p>
+                  <p>+91 9786350537</p>
+                  <p>Tino Britty J</p>
                 </div>
                 <div className="flex flex-col items-start gap-2">
-                  <p>+91 73758 32032</p>
-                  <p>Bhavik Agarwal</p>
+                  <p>+91 7845314345</p>
+                  <p>John Samuel</p>
                 </div>
               </div>
             </div>
@@ -181,8 +174,7 @@ export default function Contact() {
                 className="max-w-full md:max-w-[18rem] lg:max-w-[25rem] text-white 
               font-normal text-[1rem] lg:text-[1.5rem]"
               >
-                IIITDM Jabalpur, Near Dumna Airport, Jabalpur, Madhya Pradesh
-                482005
+                Avinashi Road Between Fun Mall & Lakshmi Mills, Nava India Rd, Peelamedu, Tamil Nadu 641006
               </p>
             </div>
           </div>

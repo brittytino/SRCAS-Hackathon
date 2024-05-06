@@ -60,7 +60,7 @@ export default function Contact() {
 
           <div className="flex flex-col items-start gap-8 md:gap-12">
             <p className="text-[#F5F0D8] font-normal font-['Inter'] text-[1.5rem] md:text-[1.875rem]">
-              Reaching IIIT Jabalpur
+              Reaching SRCAS
             </p>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4010209.736124167!2d74.47821057772867!3d11.022080408704667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba85849d74c3695%3A0x9153ec3168293ec5!2sSri%20Ramakrishna%20College%20of%20Arts%20%26%20Science!5e0!3m2!1sen!2sin!4v1714994879702!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>

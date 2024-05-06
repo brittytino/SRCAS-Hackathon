@@ -104,7 +104,7 @@ export default function Home() {
               className="text-[#FAF8ED] text-[1.25rem] font-medium text-left 
               lg:text-right lg:text-[1.5rem]"
             >
-              Join us at IIIT Jabalpur, April
+              Join us at SRCAS, August 14
               <br />
               5-7 for an in-person hackathon.
             </p>
@@ -143,7 +143,7 @@ export default function Home() {
                 <p className="text-[#FAF8ED] text-[0.75rem] font-[600]">
                   Organised by
                   <br className="hidden md:block" /> The Programming Club of
-                  IIITDMJ
+                  SRCAS
                 </p>
               </div>
             </div>

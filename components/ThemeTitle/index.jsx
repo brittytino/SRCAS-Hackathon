@@ -60,8 +60,8 @@ const ThemeTitle = () => {
         onMouseEnter={textEnter}
         onMouseLeave={textLeave}
       >
-        Digital Anonymity
-        <br /> Unleashed
+        Sustainable 
+        <br /> Development Goals
       </p>
 
       <motion.div

@@ -37,7 +37,7 @@ export default function Home() {
     {
       number: 100,
       label: "Volunteers",
-      description: "To help you, get the best out of HackByte.",
+      description: "To help you, get the best out of HackShpere.",
     },
     {
       number: 120,
@@ -119,7 +119,7 @@ export default function Home() {
                     "0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 0px 0px 1px rgba(103, 110, 118, 0.16), 0px 2px 5px 0px rgba(103, 110, 118, 0.08)",
                 }}
               >
-                Explore Logitech Tracks and Pads
+                Explore the Prices
                 <ArrowTopRightIcon className="w-5 h-5 ml-1" />
               </Button>
             </Link>
@@ -153,7 +153,7 @@ export default function Home() {
             >
               <div className="flex justify-center items-center">
                 <img
-                  src="/iiitdmjLogo.svg"
+                  src="https://upload.wikimedia.org/wikipedia/en/thumb/d/db/Sri_Ramakrishna_College_of_Arts_and_Science.svg/1200px-Sri_Ramakrishna_College_of_Arts_and_Science.svg.png"
                   alt="IIITDMJ Logo"
                   className="w-[6rem] h-[3rem]"
                 />
@@ -215,14 +215,14 @@ export default function Home() {
                   className="text-center text-[#F5F0D8] text-3xl lg:text-4xl 
                     font-medium leading-[44px]"
                 >
-                  Why participate in Hacksphere?
+                  Why participate in HackSphere?
                 </p>
               </div>
               <p
                 className="text-center text-[#D1CAC7] text-lg lg:text-xl 
                   font-normal font-['Inter'] leading-[30px]"
               >
-                Hacksphere promises a wonderful experience to the
+                HackSphere promises a wonderful experience to the
                 participants.
               </p>
             </div>
@@ -280,7 +280,7 @@ export default function Home() {
                 className="max-w-[30rem] text-black text-base md:text-sm lg:text-lg 
                 font-normal font-['Inter'] leading-6 sm:leading-7 tracking-tight"
               >
-                To stay up-to-date with Hacksphere, consider subscribing to
+                To stay up-to-date with HackSphere, consider subscribing to
                 our mailing list. Helps us share important updates right away
                 with hackers and enthusiasts alike !
               </p>
@@ -320,7 +320,7 @@ export default function Home() {
                   className=" text-black text-base md:text-sm lg:text-lg font-normal 
                   font-['Inter'] leading-6 sm:leading-7 tracking-tight"
                 >
-                  Be the first ones to register for Hacksphere 
+                  Be the first ones to register for HackSphere 
                 </p>
               </div>
             </div>
@@ -345,9 +345,8 @@ export default function Home() {
           text-white font-normal md:leading-[8rem] lg:leading-[10rem] 
             tracking-tighter md:tracking-[-0.2rem]"
           >
-            Empower
-            <br /> Your Digital
-            <br /> Odyssey!
+            Code the
+            <br /> Future!
           </p>
 
           <FooterAnimation />

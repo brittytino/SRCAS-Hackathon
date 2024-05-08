@@ -104,7 +104,7 @@ export default function Home() {
               className="text-[#FAF8ED] text-[1.25rem] font-medium text-left 
               lg:text-right lg:text-[1.5rem]"
             >
-              Join us at SRCAS, August 14
+              Join us at IIIT Jabalpur, April
               <br />
               5-7 for an in-person hackathon.
             </p>
@@ -119,7 +119,7 @@ export default function Home() {
                     "0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 0px 0px 1px rgba(103, 110, 118, 0.16), 0px 2px 5px 0px rgba(103, 110, 118, 0.08)",
                 }}
               >
-                Explore Logitech Tracks and Pads
+                Explore Logitech Tracks
                 <ArrowTopRightIcon className="w-5 h-5 ml-1" />
               </Button>
             </Link>
@@ -143,7 +143,7 @@ export default function Home() {
                 <p className="text-[#FAF8ED] text-[0.75rem] font-[600]">
                   Organised by
                   <br className="hidden md:block" /> The Programming Club of
-                  SRCAS
+                  IIITDMJ
                 </p>
               </div>
             </div>
@@ -169,19 +169,19 @@ export default function Home() {
             </p>
             <div className="flex gap-6">
               <SocialMediaIcon
-                href="#"
+                href="https://www.instagram.com/hackbyte.tpc/"
                 Icon={InstagramLogoIcon}
               />
               <SocialMediaIcon
-                href="#"
+                href="https://twitter.com/HackbyteTPC"
                 Icon={TwitterLogoIcon}
               />
               <SocialMediaIcon
-                href="#"
+                href="https://www.linkedin.com/company/bitbyte-tpc/"
                 Icon={LinkedInLogoIcon}
               />
               <SocialMediaIcon
-                href="#"
+                href="https://discord.gg/NTueHjdPn8"
                 Icon={DiscordLogoIcon}
               />
             </div>
@@ -215,14 +215,14 @@ export default function Home() {
                   className="text-center text-[#F5F0D8] text-3xl lg:text-4xl 
                     font-medium leading-[44px]"
                 >
-                  Why participate in Hacksphere?
+                  Why participate in Hackbyte?
                 </p>
               </div>
               <p
                 className="text-center text-[#D1CAC7] text-lg lg:text-xl 
                   font-normal font-['Inter'] leading-[30px]"
               >
-                Hacksphere promises a wonderful experience to the
+                HackByte 2.0 promises a wonderful experience to the
                 participants.
               </p>
             </div>
@@ -280,7 +280,7 @@ export default function Home() {
                 className="max-w-[30rem] text-black text-base md:text-sm lg:text-lg 
                 font-normal font-['Inter'] leading-6 sm:leading-7 tracking-tight"
               >
-                To stay up-to-date with Hacksphere, consider subscribing to
+                To stay up-to-date with HackByte 2.0, consider subscribing to
                 our mailing list. Helps us share important updates right away
                 with hackers and enthusiasts alike !
               </p>
@@ -320,7 +320,7 @@ export default function Home() {
                   className=" text-black text-base md:text-sm lg:text-lg font-normal 
                   font-['Inter'] leading-6 sm:leading-7 tracking-tight"
                 >
-                  Be the first ones to register for Hacksphere 
+                  Be the first ones to register for HackByte 2.0
                 </p>
               </div>
             </div>

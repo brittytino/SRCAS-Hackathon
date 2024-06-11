@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import logitech from "@/public/partnersPage/logitech.jpg";
+import srcas from "@/public/srcas.png";
 import { ArrowRightIcon } from "@radix-ui/react-icons";
 import { Tilt } from "react-tilt";
 
@@ -22,7 +22,7 @@ export default function TitleSponsorCard() {
 
   return (
     <a
-      href="https://www.logitech.com/en-in/mx/master-series.html"
+      href="https://www.srcas.ac.in"
       target="_blank"
       rel="noreferrer"
       className="w-full xl:max-w-[95%] 2xl:max-w-[90%] flex justify-center"
@@ -44,8 +44,8 @@ export default function TitleSponsorCard() {
           <Image
             className="w-full md:w-[300px] lg:w-[350px] xl:w-[450px] rounded-t-[8px] 
               md:rounded-r-none md:rounded-l-[8px]"
-            src={logitech}
-            alt="Logitech"
+            src={srcas}
+            alt="SRCAS"
             placeholder="blur"
           />
           <div
@@ -56,7 +56,7 @@ export default function TitleSponsorCard() {
           >
             <div className="w-full flex justify-between items-center">
               <p className="font-medium text-[2rem] xl:text-[2.25rem]">
-                Logitech
+                SRCAS
               </p>
               <div className="hover:bg-[#1B1B1B] mt-1 p-1">
                 <ArrowRightIcon
@@ -69,9 +69,9 @@ export default function TitleSponsorCard() {
               Title Sponsor
             </p>
             <p className="text-[#EAECF0] font-normal font-[Inter] text-[1rem] md:text[1.125rem]">
-              The MX Master Series is expertly designed for users, empowering
-              coders to unleash productivity and optimize performance during
-              intense coding marathons.
+            Sri Ramakrishna College of Arts and Science is a College of Arts and Science in Coimbatore, Tamil Nadu, India.
+             It was founded in 1987. At present, with 5000+ students, the college is offering 30+ programmes in Arts, Humanities, 
+             Science, Commerce and Management domains. The college of Accredited by NAAC with A+ grade. 
             </p>
           </div>
         </div>

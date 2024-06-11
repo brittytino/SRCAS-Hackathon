@@ -62,15 +62,15 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="absolute sm:z-[2] w-full flex items-center xl:justify-center px-4 pt-8">
-        <Image
-          src={MobileLogo}
-          alt="Hackathon-Mobile-Logo"
-          className="md:hidden"
-          width={"6rem"}
-          height={"3rem"}
-          priority
-        />
+      <nav className="absolute sm:z-[2] w-full flex items-center justify-between xl:justify-center px-4 pt-8">
+        <div className="md:hidden flex items-center justify-center w-24 h-auto">
+          <Image
+            src={MobileLogo}
+            alt="Hackathon-Mobile-Logo"
+            className="w-full h-auto"
+            priority
+          />
+        </div>
         <div
           className="hidden h-10 xl:flex xl:justify-center xl:items-center 
             px-3 py-8 rounded-full border-2 border-solid border-gray-800 

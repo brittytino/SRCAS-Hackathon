@@ -3,6 +3,13 @@ import ThemeTitle from "@/components/ThemeTitle";
 import { Button } from "@/components/ui/button";
 import { ArrowTopRightIcon } from "@radix-ui/react-icons";
 import { HackbyteLogo } from "@/components/HackbyteLogo";
+import TextAnimation from "@/components/TextAnimation";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 import {
   TwitterLogoIcon,
   InstagramLogoIcon,
@@ -12,7 +19,7 @@ import {
 import Link from "next/link";
 import StatisticCard from "@/components/StatisticCard";
 import NewsLetter from "@/components/NewsLetter";
-
+import "./faq/page.css";
 import FooterAnimation from "@/components/FooterAnimation";
 import Footer from "@/components/Footer";
 
@@ -44,6 +51,83 @@ export default function Home() {
       label: "Mentors",
       description: "To Assist you throughout the hackathon!",
     },
+  ];
+
+  const images = [
+    "/footer/sdg/1.png",
+    "/footer/sdg/2.png",
+    "/footer/sdg/3.png",
+    "/footer/sdg/4.png",
+    "/footer/sdg/5.png",
+    "/footer/sdg/6.png",
+    "/footer/sdg/7.png",
+    "/footer/sdg/8.png",
+    "/footer/sdg/9.png",
+    "/footer/sdg/10.png",
+    "/footer/sdg/11.png",
+    "/footer/sdg/12.png",
+    "/footer/sdg/13.png",
+    "/footer/sdg/14.png",
+    "/footer/sdg/15.png",
+    "/footer/sdg/16.png",
+    "/footer/sdg/17.png",
+  ];
+
+  const themes = [
+    {
+      title: "Theme 1",
+      description: "Description of Theme 1",
+      problems: [
+        {
+          title: "Problem 1.1",
+          description: "Description of Problem 1.1"
+        },
+        {
+          title: "Problem 1.2",
+          description: "Description of Problem 1.2"
+        },
+        {
+          title: "Problem 1.3",
+          description: "Description of Problem 1.3"
+        }
+      ]
+    },
+    {
+      title: "Theme 2",
+      description: "Description of Theme 2",
+      problems: [
+        {
+          title: "Problem 2.1",
+          description: "Description of Problem 2.1"
+        },
+        {
+          title: "Problem 2.2",
+          description: "Description of Problem 2.2"
+        },
+        {
+          title: "Problem 2.3",
+          description: "Description of Problem 2.3"
+        }
+      ]
+    },
+    {
+      title: "Theme 3",
+      description: "Description of Theme 3",
+      problems: [
+        {
+          title: "Problem 3.1",
+          description: "Description of Problem 3.1"
+        },
+        {
+          title: "Problem 3.2",
+          description: "Description of Problem 3.2"
+        },
+        {
+          title: "Problem 3.3",
+          description: "Description of Problem 3.3"
+        }
+      ]
+    }
   ];
 
   const aboutData = [
@@ -142,7 +226,7 @@ export default function Home() {
                 />
                 <p className="text-[#FAF8ED] text-[0.75rem] font-[600]">
                   Organised by
-                  <br className="hidden md:block" /> The Programming Club of
+                  <br className="hidden md:block" /> Programming Club of
                   SRCAS
                 </p>
               </div>
@@ -160,6 +244,8 @@ export default function Home() {
               </div>
             </div>
           </div>
+
+
           <div className="hidden lg:flex flex-col items-end gap-4">
             <p
               className="text-[#FAF8ED] text-[1rem] xl:text-[1.25rem] 
@@ -169,25 +255,43 @@ export default function Home() {
             </p>
             <div className="flex gap-6">
               <SocialMediaIcon
-                href="https://www.instagram.com/hackbyte.tpc/"
+                href="https://www.instagram.com/proclub_srcas/"
                 Icon={InstagramLogoIcon}
               />
-              <SocialMediaIcon
-                href="https://twitter.com/HackbyteTPC"
+              {/* <SocialMediaIcon
+                href="https://twitter.com/"
                 Icon={TwitterLogoIcon}
-              />
+              /> */}
               <SocialMediaIcon
-                href="https://www.linkedin.com/company/bitbyte-tpc/"
+                href="https://www.linkedin.com/"
                 Icon={LinkedInLogoIcon}
               />
               <SocialMediaIcon
-                href="https://discord.gg/NTueHjdPn8"
+                href="https://discord.com"
                 Icon={DiscordLogoIcon}
               />
             </div>
           </div>
         </div>
+
+        <div className="flex justify-center items-center p-4"> {/* Center the section and add padding */}
+          <div className="flex gap-3.5 overflow-x-auto max-w-full"> {/* Handle horizontal overflow */}
+            {Array.from({ length: 17 }, (_, i) => (
+              <img
+                key={i}
+                src={`/sdgSquare/${i + 1}.png`}
+                alt={`SDG ${i + 1}`}
+                className="w-16 h-16 flex-shrink-0" // Fixed width and height
+              />
+            ))}
+          </div>
+        </div>
+
       </div>
+
+      
+
+
 
       <div className="w-full flex flex-col bg-[#101010]">
         <div className="flex flex-col p-4 md:px-12 xl:px-20 py-16 md:py-24">
@@ -261,6 +365,50 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      {/* Theme Sections */}
+      <div className="bg-[#101010] flex flex-col min-h-screen p-4 md:pb-16 lg:px-[10%] md:pt-24 pt-16">
+        {themes.map((theme, index) => (
+          <div key={index} className="mb-12">
+            <div className="flex flex-col md:flex-row gap-12 md:gap-16 lg:gap-24">
+              {/* Left Half */}
+              <div className="w-full md:w-2/5 flex flex-col gap-5">
+                <div className="max-w-[448px] text-white text-3xl md:text-4xl font-medium leading-[44px]">
+                  {theme.title}
+                </div>
+                <div className="max-w-[700px] text-[#C3C3C3] font-['Inter'] font-normal text-lg leading-7">
+                  {theme.description}
+                </div>
+              </div>
+              
+              {/* Right Half */}
+              <div className="w-full md:w-3/5 flex flex-col gap-5">
+                {theme.problems.map((problem, problemIndex) => (
+                  <div key={problemIndex} className="mb-8">
+                    <Accordion type="single" collapsible>
+                      <AccordionItem value={`item-${problemIndex}`} className="py-4 md:p-8">
+                        <AccordionTrigger className="max-w-[592px] text-white text-2xl 
+                    font-medium leading-7">
+                          {problem.title}
+                        </AccordionTrigger>
+                        <AccordionContent>
+                          <div className="max-w-[592px] text-gray-200 text-lg 
+                      font-normal font-['Inter'] leading-7">
+                            {problem.description}
+                          </div>
+                        </AccordionContent>
+                      </AccordionItem>
+                    </Accordion>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+
+
+
 
       <div
         className="bg-[#EBB323] w-full h-full flex flex-col md:flex-row justify-between 

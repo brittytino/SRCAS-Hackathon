@@ -46,165 +46,132 @@ export const metadata = {
 export default function Schedule() {
   const day1 = [
     {
-      event: "Check in",
-      time: "2:30 PM - 5:00 PM",
-      duration: "150mins",
+      event: "Submission Starts",
+      time: "01.07.2024",
     },
     {
-      event: "Opening Ceremony",
-      time: "5:15 PM - 6:30 PM",
-      duration: "75mins",
+      event: "Submission Ends",
+      time: "24.07.2024",
     },
     {
-      event: "Logitech Keynote",
-      time: "6:00 PM - 6:30 PM",
-      duration: "30mins",
+      event: "Extended Submission",
+      time: "26.07.2024",
     },
-    {
-      event: "Hacking Begins",
-      time: "7:00 PM",
-      duration: "NA",
-    },
-    {
-      event: "Dinner",
-      time: "9:30 PM - 10:30 PM",
-      duration: "60mins",
-    },
+    
   ];
 
   const day2 = [
     {
-      event: "Logitech Workshop",
-      time: "12:00 AM - 1:00 AM",
-      duration: "60mins",
+      event: "Release of Finalists",
+      time: "05.08.2024",
     },
     {
-      event: "Mentorship Round 1",
-      time: "1:30AM",
-      duration: "NA",
+      event: "Mentorship Sessions",
+      time: "07.05.2024 - 09.05.2024",
     },
-    {
-      event: "Checkpoint 1/4",
-      time: "2:00 AM",
-      duration: "NA",
-    },
-    {
-      event: "Logitech Event-Blind Type and Postman Trivia",
-      time: "2:00 AM - 3:00 AM",
-      duration: "60mins",
-    },
-    {
-      event: "Midnight Snack",
-      time: "4:00 AM",
-      duration: "NA",
-    },
-    {
-      event: "Breakfast",
-      time: "7:30 AM - 8:30 AM",
-      duration: "60mins",
-    },
-    {
-      event: "Virtual Protocol Session",
-      time: "9:15 AM - 9:45 AM",
-      duration: "30mins",
-    },
-    {
-      event: "GitHub Copilot by Sagar",
-      time: "10:15 AM - 11:00 AM",
-      duration: "45mins",
-    },
-    {
-      event: "Postman Trivia and Logitech Event-Blind Type",
-      time: "11:00 AM - 12:00 PM",
-      duration: "60mins",
-    },
-    {
-      event: "Lunch",
-      time: "12:00 PM - 1:00 PM",
-      duration: "60mins",
-    },
-    {
-      event: "Checkpoint 2/4",
-      time: "2:00 PM",
-      duration: "NA",
-    },
-    {
-      event: "Judging Round 1",
-      time: "2:00 PM - 4:00 PM",
-      duration: "120mins",
-    },
-    {
-      event: "Codespaces session by Sanskriti",
-      time: "4:00 PM - 5:30 PM",
-      duration: "90mins",
-    },
-    {
-      event: "Dinner",
-      time: "7:00 PM - 8:15 PM",
-      duration: "75mins",
-    },
-    {
-      event: "Checkpoint 3/4",
-      time: "10:00 PM",
-      duration: "NA",
-    },
+    
   ];
 
   const day3 = [
     {
-      event: "Postman session by Aanchal",
-      time: "12:00 AM - 1:00 AM",
-      duration: "60mins",
-    },
-    {
-      event: "Menorship Round 2",
-      time: "1:00 AM",
-      duration: "NA",
-    },
-    {
-      event: "Games",
-      time: "2:00 AM - 3:00 AM",
-      duration: "60mins",
-    },
-    {
-      event: "Checkpoint 4/4",
-      time: "3:00 AM",
-      duration: "NA",
-    },
-    {
-      event: "Midnight Snack",
-      time: "3:30 AM",
-      duration: "NA",
-    },
-    {
-      event: "Soft Deadline",
-      time: "5:30 AM",
-      duration: "NA",
-    },
-    {
-      event: "Hard Deadline",
-      time: "7:00 AM",
-      duration: "NA",
+      event: "CheckIn",
+      time: "07:00 AM - 07:30 AM",
+      duration: "30mins",
     },
     {
       event: "Breakfast",
-      time: "7:30 AM - 8:30 AM",
-      duration: "60mins",
+      time: "7:00 AM - 07:45AM",
+      duration: "45mins",
     },
     {
-      event: "Judging Round 2",
-      time: "9:00 AM",
+      event: "Inauguration",
+      time: "8:00 AM - 08:30AM",
+      duration: "30mins",
+    },
+    {
+      event: "Hack Begins",
+      time: "08:30 AM",
+      duration: "NA",
+    },
+    {
+      event: "Snack",
+      time: "10:30 AM",
+      duration: "15mins",
+    },
+    {
+      event: "Mentoring - 1",
+      time: "11:00 AM",
       duration: "NA",
     },
     {
       event: "Lunch",
-      time: "12:00 PM - 1:10 PM",
-      duration: "70mins",
+      time: "01:00 PM",
+      duration: "35mins",
+    },
+    {
+      event: "Mentoring - 2",
+      time: "04:30 PM",
+      duration: "NA",
+    },
+    {
+      event: "Snacks",
+      time: "05:30 PM",
+      duration: "15mins",
+    },
+    {
+      event: "Mentoring - 3",
+      time: "07:30 PM",
+      duration: "NA",
+    },
+    {
+      event: "Dinner",
+      time: "08:30 PM",
+      duration: "35mins",
+    },
+    {
+      event: "Snacks",
+      time: "12:00 AM",
+      duration: "15mins",
+    },
+    {
+      event: "Chill Night",
+      time: "12:00 AM",
+      duration: "NA",
+    },
+    {
+      event: "Mentoring - 4",
+      time: "3:00 AM",
+      duration: "NA",
+    },
+    {
+      event: "Snacks",
+      time: "5:00 AM",
+      duration: "15mins",
+    },
+    {
+      event: "Breakfast",
+      time: "7:00 AM",
+      duration: "35mins",
+    },
+    {
+      event: "Hackends",
+      time: "8:30 AM",
+      duration: "NA",
+    },
+    {
+      event: "Final Presentation",
+      time: "08:30 AM - 10:00 AM",
+      duration: "90mins",
     },
     {
       event: "Closing Ceremony",
-      time: "2:15 PM",
+      time: "11:00 AM",
       duration: "NA",
+    },
+    {
+      event: "Lunch",
+      time: "12:00 PM",
+      duration: "35mins",
     },
   ];
 
@@ -256,12 +223,12 @@ export default function Schedule() {
                     />
                     <p
                       className="text-white text-center font-medium text-[3rem] 
-                        lg:text-[4.125rem]"
+                        lg:text-[3.1rem]"
                       style={{
                         textShadow: "0px 0px 100px rgba(242, 210, 59, 0.80)",
                       }}
                     >
-                      Round1
+                      Round 1
                     </p>
                     <Image
                       src={rightLeaf}
@@ -279,7 +246,7 @@ export default function Schedule() {
                       WebkitTextFillColor: "transparent",
                     }}
                   >
-                    Submit Your Solution PPT Within 31/07/2024
+                    PPT Submission Timeline
                   </p>
                 </div>
 
@@ -306,16 +273,15 @@ export default function Schedule() {
                   className="text-[#F5F0D8] text-center font-normal text-[2.25rem]
                     md:text-[3rem]"
                 >
-                  Day 1 Timeline
+                  Round 1 Timeline
                 </DialogTitle>
                 <DialogDescription className="text-white">
                   <ScrollArea className="h-[500px] lg:h-[350px] w-full overflow-auto">
                     <Table>
                       <TableHeader className="bg-[#0275F6]">
                         <TableRow className="text-[1rem] md:text-[1.5rem] font-medium">
-                          <TableHead>Event</TableHead>
-                          <TableHead>Time</TableHead>
-                          <TableHead>Duration</TableHead>
+                          <TableHead>Title</TableHead>
+                          <TableHead>Date</TableHead>
                         </TableRow>
                       </TableHeader>
                       <TableBody>
@@ -330,7 +296,6 @@ export default function Schedule() {
                             <TableCell className="text-left">
                               {event.time}
                             </TableCell>
-                            <TableCell>{event.duration}</TableCell>
                           </TableRow>
                         ))}
                       </TableBody>
@@ -363,7 +328,7 @@ export default function Schedule() {
                     />
                     <p
                       className="text-white text-center font-medium text-[3rem] 
-                        lg:text-[4.125rem]"
+                        lg:text-[3.8rem]"
                       style={{
                         textShadow: "0px 0px 100px rgba(242, 210, 59, 0.80)",
                       }}
@@ -386,7 +351,7 @@ export default function Schedule() {
                       WebkitTextFillColor: "transparent",
                     }}
                   >
-                    The announcement of selected teams!
+                    Finalist Release & Online Mentoring Session Timeline
                   </p>
                 </div>
 
@@ -394,7 +359,7 @@ export default function Schedule() {
                   className="text-[#D1CAC7] font-[Inter] text-center font-normal 
                     text-[1rem] md:text[1.125rem]"
                 >
-                  The selected teams from round 1 will be announced on 10/08/2024!
+                  The selected teams announcement! The selected teams will have Mentoring Sessions from experts.
                 </p>
               </div>
             </DialogTrigger>
@@ -412,16 +377,15 @@ export default function Schedule() {
                   className="text-[#F5F0D8] text-center font-normal text-[2.25rem]
                     md:text-[3rem]"
                 >
-                  Day 2 Timeline
+                  Announcements Timeline
                 </DialogTitle>
                 <DialogDescription className="text-white">
                   <ScrollArea className="h-[500px] lg:h-[350px] w-full overflow-auto">
                     <Table>
                       <TableHeader className="bg-[#1FD26C]">
                         <TableRow className="text-[1rem] md:text-[1.5rem] font-medium">
-                          <TableHead>Event</TableHead>
-                          <TableHead>Time</TableHead>
-                          <TableHead>Duration</TableHead>
+                          <TableHead>Title</TableHead>
+                          <TableHead>Date</TableHead>
                         </TableRow>
                       </TableHeader>
                       <TableBody>
@@ -436,7 +400,6 @@ export default function Schedule() {
                             <TableCell className="text-left">
                               {event.time}
                             </TableCell>
-                            <TableCell>{event.duration}</TableCell>
                           </TableRow>
                         ))}
                       </TableBody>
@@ -500,7 +463,7 @@ export default function Schedule() {
                   className="text-[#D1CAC7] font-[Inter] text-center font-normal 
                     text-[1rem] md:text[1.125rem]"
                 >
-                  The hackathon begins in offline mode at 15/08/2024. Get all your preparations done before that!
+                  The hackathon begins in offline mode at 14/08/2024. Get all your preparations done before that!
                 </p>
               </div>
             </DialogTrigger>
@@ -519,7 +482,7 @@ export default function Schedule() {
                   className="text-[#F5F0D8] text-center font-normal text-[2.25rem]
                     md:text-[3rem]"
                 >
-                  Day 3 Timeline
+                  Finale Timeline
                 </DialogTitle>
                 <DialogDescription className="text-white">
                   <ScrollArea className="h-[500px] lg:h-[350px] w-full overflow-auto">

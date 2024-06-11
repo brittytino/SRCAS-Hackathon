@@ -145,6 +145,7 @@ export default function FAQ() {
               </span>
             </div>
           </div>
+          
           <div className="max-w-[700px]">
             {data.map((item, index) => (
               <Accordion key={index} type="single" collapsible>

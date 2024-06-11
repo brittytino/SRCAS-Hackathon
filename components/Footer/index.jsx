@@ -40,15 +40,15 @@ const Footer = () => {
         </div>
         <div className="flex gap-6">
           <SocialMediaIcon
-            href="https://www.instagram.com/hackbyte.tpc/"
+            href="https://www.instagram.com/proclub_srcas/"
             Icon={InstagramLogoIcon}
           />
-          <SocialMediaIcon
+          {/* <SocialMediaIcon
             href="https://twitter.com/HackbyteTPC"
             Icon={TwitterLogoIcon}
-          />
+          /> */}
           <SocialMediaIcon
-            href="https://www.linkedin.com/company/bitbyte-tpc/"
+            href="https://www.linkedin.com/"
             Icon={LinkedInLogoIcon}
           />
           <SocialMediaIcon

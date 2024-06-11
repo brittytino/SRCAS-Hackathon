@@ -191,7 +191,7 @@ export default function Prizes() {
                   text-center font-normal text-[1.25rem] md:text-[1.5rem]"
               >
                 Combine your skills and creativity to build something outstanding!
-                 Any prize money will be split equally among all participants.
+                 Any prize money will be split equally among all participants. Each theme will have two prizes!
               </p>
               {/* <div className="rounded-full border border-[#D1CAC7] px-4 py-1">
                 <p
@@ -207,8 +207,8 @@ export default function Prizes() {
           <div className="flex flex-col gap-6 md:gap-8">
             <div className="grid grid-cols-1">
               <PrizeCard
-                amount="25K"
-                category="1st prize- Gold"
+                amount="10k"
+                category="1st prize"
                 default_bg="radial-gradient(116.96% 115.94% at 9.81% 9.24%, #383300 0%, rgba(56, 50, 0, 0.17) 100%)"
                 hover_bg="radial-gradient(116.96% 115.94% at 9.81% 9.24%, #383300 0%, rgba(56, 50, 0, 0.17) 100%)"
               />
@@ -216,8 +216,8 @@ export default function Prizes() {
 
             <div className="grid grid-cols-1">
               <PrizeCard
-                amount="15K"
-                category="2nd prize- Silver"
+                amount="5k"
+                category="2nd prize"
                 default_bg="radial-gradient(148.8% 129.29% at 94.87% 3.94%, #363636 0%, rgba(26, 26, 26, 0.27) 100%)"
                 hover_bg="radial-gradient(371.89% 134.33% at 3.21% 1.26%,rgba(255, 255, 255, 0.07) 0%,rgba(217, 217, 217, 0.00) 100%)"
               />
@@ -238,7 +238,7 @@ export default function Prizes() {
                 hover_bg="radial-gradient(371.89% 134.33% at 3.21% 1.26%,rgba(255, 255, 255, 0.07) 0%,rgba(217, 217, 217, 0.00) 100%)"
               /> 
             </div> */}
-            <div className="grid grid-cols-1 gap-6 md:gap-8 lg:grid-cols-2">
+            {/* <div className="grid grid-cols-1 gap-6 md:gap-8 lg:grid-cols-2">
               <div
                 className="flex flex-col items-center gap-12 px-8 py-6 
                   md:flex-row md:px-6 rounded-[8px] border border-[rgba(255,255,255,0.5)]"
@@ -291,12 +291,12 @@ export default function Prizes() {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
 
         {/* Logitech Tracks Section */}
-        <div id="logitech-tracks" className="w-full flex flex-col pt-24">
+        {/* <div id="logitech-tracks" className="w-full flex flex-col pt-24">
           <div className="flex flex-col items-center gap-4 md:gap-6">
             <p
               className="text-[#F5F0D8] text-center font-normal text-[2.25rem] 
@@ -372,12 +372,12 @@ export default function Prizes() {
           </div> 
 
           <div className="flex flex-col items-center mt-[4.5rem]">
-            {/* <p
+             <p
               className="text-[#F5F0D8] text-center font-normal text-[2.25rem] 
                 md:text-[5rem] leading-10 md:leading-[5rem] xl:leading-[4.5rem]"
             >
               Explore more tracks by Logitech
-            </p> */}
+            </p> 
 
             <div
               className="w-full grid grid-cols-1 xl:grid-cols-2 place-content-center 
@@ -388,9 +388,9 @@ export default function Prizes() {
               ))}
             </div>
           </div>
-        </div>
+        </div> */}
 
-        Sponsor Tracks Section 
+        {/* Sponsor Tracks Section 
         <div className="w-full flex flex-col pt-24">
           <div className="flex flex-col items-center gap-4 md:gap-6">
             <p className="text-[#F5F0D8] text-[2.25rem] font-normal md:text-[5rem]">
@@ -414,8 +414,8 @@ export default function Prizes() {
               <TSPrizeCard key={index} index={index} {...sponsor} />
             ))}
           </div>
-        </div>
-      </div>
+        </div> */}
+      </div> 
 
       <div className="bg-black w-full h-full py-24 lg:py-40">
         <div

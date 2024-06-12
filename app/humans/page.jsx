@@ -3,40 +3,34 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import HumansCard from "@/components/HumansCard";
 
 // Organizers
-import sample from "@/public/humansPage/Prof.png";
-import priyansh from "@/public/humansPage/priyansh.jpg";
-import bhavik from "@/public/humansPage/bhavik.jpg";
-import samyak from "@/public/humansPage/samyak.jpeg";
-import divyansh from "@/public/humansPage/divyansh.jpeg";
-import vansh from "@/public/humansPage/vansh.jpeg";
-import aditya from "@/public/humansPage/aditya.jpg";
-import varun from "@/public/humansPage/varun.jpg";
-import deepanshu from "@/public/humansPage/deepanshu.jpg";
-import sambhav from "@/public/humansPage/sambhav.jpg";
-import tushir from "@/public/humansPage/tushir.jpeg";
-import aman from "@/public/humansPage/aman.jpeg";
-import aish from "@/public/humansPage/aish.jpg";
-import prajjwal from "@/public/humansPage/prajjwal.jpg";
-import aryan from "@/public/humansPage/aryan.jpg";
-import prajwal from "@/public/humansPage/prajwal.jpg";
-import manoj from "@/public/humansPage/manoj.jpeg";
+import chairman from "@/public/Volunteers/tinobretty.jpg";
+import assistantChairman from "@/public/Volunteers/johnsamuel.jpg";
+import secretary from "@/public/Volunteers/secretary.jpg";
+import viceChairman from "@/public/Volunteers/kanishka.jpg";
+import Balaguru from "@/public/Volunteers/balaguru.webp";
+import Sujithaa from "@/public/Volunteers/Sujithaa.webp";
+import SriSaratthi from "@/public/Volunteers/Sri Saratthi.webp";
+import harini from "@/public/Volunteers/harini.webp";
+import Rishaba from "@/public/Volunteers/rishaba.webp";
+import Vishnuraj from "@/public/Volunteers/VISHNURAJ R.webp";
+import Aarthi from "@/public/Volunteers/aarthi.webp";
+import Velan from "@/public/Volunteers/velan.jpeg";
+import logeshwaran from "@/public/Volunteers/logeshwaran.jpeg";
+import Nandita from "@/public/Volunteers/Nandita.jpg";
+import Sarath from "@/public/Volunteers/sarath.webp";
+import Gokul from "@/public/Volunteers/gokul.webp";
+import Vikaas from "@/public/Volunteers/vikaas.webp";
+import Poornila from "@/public/Volunteers/poornila.webp";
+import srikanth from "@/public/Volunteers/srikanth.webp";
+import PriyaDharshini from "@/public/Volunteers/Priya Dharshini.jpg";
+import Chittesh from "@/public/Volunteers/chittesh.webp";
 import nitya from "@/public/humansPage/nitya.jpg";
 
 // Mentors
 import aanchal from "@/public/humansPage/aanchal.jpeg";
-import khushi from "@/public/humansPage/khushi.jpg";
-import manan from "@/public/humansPage/manan.jpg";
-import priyansh_garg from "@/public/humansPage/priyansh_garg.jpeg";
-import akshat from "@/public/humansPage/akshat.jpg";
-import sanskriti from "@/public/humansPage/sanskriti.jpg";
-import yashika from "@/public/humansPage/yashika.jpeg";
-import sagar from "@/public/humansPage/sagar.jpg";
-import siddhant from "@/public/humansPage/siddhant.jpeg";
-import vedant from "@/public/humansPage/vedant.jpeg";
-import ashu from "@/public/humansPage/ashu.jpg";
-import ashish from "@/public/humansPage/ashish.jpg";
-import gautam from "@/public/humansPage/gautam.jpg";
-import chaitanya from "@/public/humansPage/chaitanaya.jpg";
+import HODimg from "@/public/Co-Ordinators/sumathi.png";
+import AssociateProf from "@/public/Co-Ordinators/praneesh.png";
+import AssociateProf2 from "@/public/Co-Ordinators/manoj.png";
 
 import FooterAnimation from "@/components/FooterAnimation";
 import Footer from "@/components/Footer";
@@ -63,242 +57,276 @@ export const metadata = {
 export default function Team() {
   const organizerData = [
     {
-      name: "Bhavik",
-      role: "Event Coordinator",
-      profilepic: sample,
-      linkedin: "https://www.linkedin.com/in/",
-      twitter: "https://twitter.com/",
+      name: "Tino Britty J",
+      role: "Chairman",
+      profilepic: chairman,
+      linkedin: "https://www.linkedin.com/in/brittytino",
+      instagram: "https://www.instagram.com/brittytino/",
+      github: "https://github.com/",
+    },    
+    {
+      name: "John Samuel",
+      role: "Vice Chairman",
+      profilepic: assistantChairman,
+      linkedin: "https://www.linkedin.com/in/samjohnoffl",
+      instagram: "https://www.instagram.com/samjohn_offl",
       github: "https://github.com/",
     },
     {
-      name: "Samyak",
-      role: "Event Coordinator",
-      profilepic: sample,
-      linkedin: "https://www.linkedin.com/in/",
-      twitter: "https://twitter.com/",
+      name: "Pravin B",
+      role: "Secretary",
+      profilepic: secretary,
+      linkedin: "https://www.linkedin.com/in/pravinboopathi/",
+      instagram: "https://www.instagram.com/bpravin._/",
       github: "https://github.com/",
     },
     {
-      name: "Priyansh",
-      role: "Organizer",
-      profilepic: sample,
-      linkedin: "https://www.linkedin.com/in/",
-      twitter: "https://twitter.com/",
+      name: "Kanishka C",
+      role: "Joint Secretary",
+      profilepic: viceChairman,
+      linkedin: "https://www.linkedin.com/in/kaniskha-c-2124a5292/",
+      instagram: "https://www.instagram.com/kaniskha_chandrasekar/",
       github: "https://github.com/",
     },
     {
-      name: "Divyansh",
-      role: "Organizer",
-      profilepic: sample,
-      linkedin: "https://www.linkedin.com/in/",
-      twitter: "https://twitter.com/",
-      github: "https://github.com/",
+      name: "Sarath P",
+      role: "Executive Member",
+      profilepic: Sarath,
+      linkedin: "http://www.linkedin.com/in/thisisthesarath",
+      instagram: "http://www.instagram.com/sarath.online",
+      github: "https://www.github.com/thisisthesarath"
     },
     {
-      name: "Vansh",
-      role: "Web Lead",
-      profilepic: sample,
-      linkedin: "https://www.linkedin.com/in/",
-      twitter: "https://twitter.com/",
-      github: "https://github.com/",
+      name: "Aarthi S",
+      role: "Member",
+      profilepic: Aarthi,
+      linkedin: "https://www.linkedin.com/in/aarthi-s-8914a9292?",
+      instagram: "https://www.instagram.com/__.aarthi___?",
+      github: "https://www.github.com"
     },
     {
-      name: "Aditya",
-      role: "Design Lead",
-      profilepic: sample,
-      linkedin: "https://www.linkedin.com/in/",
-      twitter: "https://twitter.com/",
-      github: "https://github.com/",
+      name: "Balaguru K",
+      role: "Member",
+      profilepic: Balaguru,
+      linkedin: "https://www.linkedin.com/in/balaguru-k-22157727a?",
+      github: "https://www.github.com"
     },
     {
-      name: "Varun",
-      role: "Organizer",
-      profilepic: sample,
-      linkedin: "https://www.linkedin.com/in/",
-      twitter: "https://twitter.com/",
-      github: "https://github.com/",
+      name: "Chittesh",
+      role: "Member",
+      profilepic: Chittesh,
+      linkedin: "https://www.linkedin.com/in/chittesh-undefined-753499306?",
+      instagram: "https://www.instagram.com/chittesh___23?",
+      github: "https://www.github.com"
     },
     {
-      name: "Deepanshu",
-      role: "PR & Marketing Lead",
-      profilepic: sample,
-      linkedin: "https://www.linkedin.com/in/",
-      twitter: "https://twitter.com/",
-      github: "https://github.com/",
+      name: "Gokul S",
+      role: "Member",
+      profilepic: Gokul,
+      linkedin: "https://www.linkedin.com/in/gokul-saravanan-s-74bb9327b?",
+      instagram: "https://www.instagram.com/lil_dodge5?",
+      github: "https://www.github.com"
     },
     {
-      name: "Sambhav",
-      role: "Speaker & Workshop Lead",
-      profilepic: sample,
-      linkedin: "https://www.linkedin.com/in/",
-      twitter: "https://twitter.com/",
-      github: "https://github.com/",
+      name: "Harini",
+      role: "Member",
+      profilepic: harini,
+      linkedin: "https://www.linkedin.com/in/harini-pechimuthu-1b47972b5",
+      instagram: "https://www.instagram.com/harinipechimuthu?",
+      github: "https://www.github.com"
     },
     {
-      name: "Tushir",
-      role: "Organizer",
-      profilepic: sample,
-      linkedin: "https://www.linkedin.com/in/",
-      twitter: "https://twitter.com/",
-      github: "https://github.com/",
+      name: "Logeshwaran V",
+      role: "Member",
+      profilepic: logeshwaran,
+      linkedin: "https://www.linkedin.com/in/logesh-waran-a42395227?",
+      instagram: "https://www.instagram.com/aeksio__hen__vys?",
+      github: "https://www.github.com"
     },
     {
-      name: "Aman",
-      role: "Organizer",
-      profilepic: sample,
-      linkedin: "https://www.linkedin.com/in/",
-      twitter: "https://twitter.com/",
-      github: "https://github.com/",
+      name: "Nandita",
+      role: "Member",
+      profilepic: Nandita,
+      linkedin: "https://www.linkedin.com/in/nandita-s-a38948312?",
+      github: "https://www.github.com"
     },
     {
-      name: "Aishwarya",
-      role: "Organizer",
-      profilepic: sample,
-      linkedin: "https://www.linkedin.com/in/",
-      twitter: "https://twitter.com/",
-      github: "https://github.com/",
+      name: "Priyadharshini K",
+      role: "Member",
+      profilepic: PriyaDharshini,
+      linkedin: "https://www.linkedin.com/in/priyadharshini-k-784920275",
+      github: "https://www.github.com"
     },
     {
-      name: "Prajjwal",
-      role: "Organizer",
-      profilepic: sample,
-      linkedin: "https://www.linkedin.com/in/",
-      twitter: "https://twitter.com/",
-      github: "https://github.com/",
+      name: "Poornila I P",
+      role: "Member",
+      profilepic: Poornila,
+      linkedin: "https://www.linkedin.com/in/poornila-i-p-45b0b4292?",
+      instagram: "https://www.instagram.com/click_.natural?",
+      github: "https://www.github.com"
     },
     {
-      name: "Aryan",
-      role: "Organizer",
-      profilepic: sample,
-      linkedin: "https://www.linkedin.com/in/",
-      twitter: "https://twitter.com/",
-      github: "https://github.com/",
+      name: "Rishaba R U",
+      role: "Member",
+      profilepic: Rishaba,
+      linkedin: "https://www.linkedin.com/in/rishaba0305204?",
+      github: "https://www.github.com"
     },
     {
-      name: "Prajwal",
-      role: "Organizer",
-      profilepic: sample,
-      linkedin: "https://www.linkedin.com/in/",
-      twitter: "https://twitter.com/",
-      github: "https://github.com/",
+      name: "Saratthi",
+      role: "Member",
+      profilepic: SriSaratthi,
+      linkedin: "https://www.linkedin.com/in/saratthi-080555166",
+      github: "https://www.github.com"
     },
     {
-      name: "Manoj",
-      role: "Organizer",
-      profilepic: sample,
-      linkedin: "https://www.linkedin.com/in/",
-      twitter: "https://twitter.com/",
-      github: "https://github.com/",
+      name: "Srikanth R G",
+      role: "Member",
+      profilepic: srikanth,
+      linkedin: "https://www.linkedin.com/in/srikanth-r-g-544937283?",
+      instagram: "https://www.instagram.com/spetsnaz_srikanth?",
+      github: "https://www.github.com"
     },
     {
-      name: "Nitya",
-      role: "Organizer",
-      profilepic: sample,
-      linkedin: "https://www.linkedin.com/in/",
-      twitter: "https://twitter.com/",
-      github: "https://github.com/",
+      name: "Sujithaa J",
+      role: "Member",
+      profilepic: Sujithaa,
+      linkedin: "https://www.linkedin.com/in/sujithaa-j-41643b292?",
+      github: "https://www.github.com"
     },
+    {
+      name: "Velan J",
+      role: "Member",
+      profilepic: Velan,
+      linkedin: "https://www.linkedin.com/in/velan-jayashankar",
+      instagram: "https://www.instagram.com/ig__velan__",
+      github: "https://www.github.com"
+    },
+    {
+      name: "Vikaas K S",
+      role: "Member",
+      profilepic: Vikaas,
+      linkedin: "https://www.linkedin.com/in/vikaas-k-s-7644a9292?",
+      instagram: "https://www.instagram.com/vikaas_0304?",
+      github: "https://www.github.com"
+    },
+    {
+      name: "Vishnuraj R",
+      role: "Member",
+      profilepic: Vishnuraj,
+      linkedin: "https://www.linkedin.com/in/vishnuraj-r-a3229324b/",
+      instagram: "https://www.instagram.com/vishnu._.rvr/",
+      github: "https://www.github.com"
+    },
+    // {
+    //   name: "Nitya",
+    //   role: "Organizer",
+    //   profilepic: nitya,
+    //   linkedin: "https://www.linkedin.com/in/",
+    //   instagram: "https://instagram.com/",
+    //   github: "https://github.com/",
+    // },
   ];
 
   const mentorData = [
     {
-      name: "Mark",
-      profilepic: sample,
+      name: "Dr.N.Sumathi",
+      profilepic: HODimg,
       linkedin: "https://www.linkedin.com/in/",
-      twitter: "https://twitter.com/",
+      instagram: "https://instagram.com/",
       github: "https://github.com/",
     },
     {
-      name: "Elon",
-      profilepic: sample,
+      name: "Dr.M.Praneesh",
+      profilepic: AssociateProf,
       linkedin: "https://www.linkedin.com/in/",
-      twitter: "https://twitter.com/",
+      instagram: "https://instagram.com/",
       github: "https://github.com/",
     },
     {
-      name: "Sundar",
-      profilepic: sample,
+      name: "Mr.S.Manoj",
+      profilepic: AssociateProf2,
       linkedin: "https://www.linkedin.com/in/",
-      twitter: "https://twitter.com/",
+      instagram: "https://instagram.com/",
       github: "https://github.com/",
     },
-    {
-      name: "Narender",
-      profilepic: sample,
-      linkedin: "https://www.linkedin.com/in/",
-      twitter: "https://twitter.com/",
-      github: "https://github.com/",
-    },
-    {
-      name: "Akshat",
-      profilepic: sample,
-      linkedin: "https://www.linkedin.com/in/",
-      twitter: "https://twitter.com/",
-      github: "https://github.com/",
-    },
-    {
-      name: "Sanskriti",
-      profilepic: sample,
-      linkedin: "https://www.linkedin.com/in/",
-      twitter: "https://twitter.com/",
-      github: "https://github.com/",
-    },
-    {
-      name: "Yashika",
-      profilepic: sample,
-      linkedin: "https://www.linkedin.com/in/",
-      twitter: "https://twitter.com/",
-      github: "https://github.com/",
-    },
-    {
-      name: "Sagar",
-      profilepic: sample,
-      linkedin: "https://www.linkedin.com/in/",
-      twitter: "https://twitter.com/",
-      github: "https://github.com/",
-    },
-    {
-      name: "Siddhant",
-      profilepic: sample,
-      linkedin: "https://www.linkedin.com/in/",
-      twitter: "https://twitter.com/",
-      github: "https://github.com/",
-    },
-    {
-      name: "Vedant",
-      profilepic: sample,
-      linkedin: "https://www.linkedin.com/in/",
-      twitter: "https://twitter.com/",
-      github: "https://github.com/",
-    },
-    {
-      name: "Ashu",
-      profilepic: sample,
-      linkedin: "https://www.linkedin.com/in/",
-      twitter: "https://twitter.com/",
-      github: "https://github.com/",
-    },
-    {
-      name: "Ashish",
-      profilepic: sample,
-      linkedin: "https://www.linkedin.com/in/",
-      twitter: "https://twitter.com/",
-      github: "https://github.com/",
-    },
-    {
-      name: "Gautam",
-      profilepic: sample,
-      linkedin: "https://www.linkedin.com/in/",
-      twitter: "https://twitter.com/",
-      github: "https://github.com/",
-    },
-    {
-      name: "Chaitanya",
-      profilepic: sample,
-      linkedin: "https://www.linkedin.com/in/",
-      twitter: "https://twitter.com/",
-      github: "https://github.com/",
-    },
+    // {
+    //   name: "Narender",
+    //   profilepic: sample,
+    //   linkedin: "https://www.linkedin.com/in/",
+    //   twitter: "https://twitter.com/",
+    //   github: "https://github.com/",
+    // },
+    // {
+    //   name: "Akshat",
+    //   profilepic: sample,
+    //   linkedin: "https://www.linkedin.com/in/",
+    //   twitter: "https://twitter.com/",
+    //   github: "https://github.com/",
+    // },
+    // {
+    //   name: "Sanskriti",
+    //   profilepic: sample,
+    //   linkedin: "https://www.linkedin.com/in/",
+    //   twitter: "https://twitter.com/",
+    //   github: "https://github.com/",
+    // },
+    // {
+    //   name: "Yashika",
+    //   profilepic: sample,
+    //   linkedin: "https://www.linkedin.com/in/",
+    //   twitter: "https://twitter.com/",
+    //   github: "https://github.com/",
+    // },
+    // {
+    //   name: "Sagar",
+    //   profilepic: sample,
+    //   linkedin: "https://www.linkedin.com/in/",
+    //   twitter: "https://twitter.com/",
+    //   github: "https://github.com/",
+    // },
+    // {
+    //   name: "Siddhant",
+    //   profilepic: sample,
+    //   linkedin: "https://www.linkedin.com/in/",
+    //   twitter: "https://twitter.com/",
+    //   github: "https://github.com/",
+    // },
+    // {
+    //   name: "Vedant",
+    //   profilepic: sample,
+    //   linkedin: "https://www.linkedin.com/in/",
+    //   twitter: "https://twitter.com/",
+    //   github: "https://github.com/",
+    // },
+    // {
+    //   name: "Ashu",
+    //   profilepic: sample,
+    //   linkedin: "https://www.linkedin.com/in/",
+    //   twitter: "https://twitter.com/",
+    //   github: "https://github.com/",
+    // },
+    // {
+    //   name: "Ashish",
+    //   profilepic: sample,
+    //   linkedin: "https://www.linkedin.com/in/",
+    //   twitter: "https://twitter.com/",
+    //   github: "https://github.com/",
+    // },
+    // {
+    //   name: "Gautam",
+    //   profilepic: sample,
+    //   linkedin: "https://www.linkedin.com/in/",
+    //   twitter: "https://twitter.com/",
+    //   github: "https://github.com/",
+    // },
+    // {
+    //   name: "Chaitanya",
+    //   profilepic: sample,
+    //   linkedin: "https://www.linkedin.com/in/",
+    //   twitter: "https://twitter.com/",
+    //   github: "https://github.com/",
+    // },
   ];
 
   return (

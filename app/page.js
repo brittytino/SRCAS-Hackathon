@@ -185,7 +185,7 @@ export default function Home() {
           </div>
           <div className="flex flex-col items-start gap-3 w-full lg:items-end lg:w-1/2">
             <p
-              className="text-[#FAF8ED] text-[1.25rem] font-medium text-left 
+              className="text-[#FFF] text-[1.25rem] font-medium text-left 
               lg:text-right lg:text-[1.5rem]"
             >
               Join us at SRCAS, August 14

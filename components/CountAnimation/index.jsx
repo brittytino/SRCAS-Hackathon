@@ -39,7 +39,7 @@ export default function CountAnimation({ targetValue }) {
 
   const styles = {
     background:
-      "linear-gradient(80deg, #D06D30 6.67%, #FFD887 28.13%, #FFDCAD 64.87%, #FAB858 95.66%)",
+      "linear-gradient(#FFF, #FFF, #FFF, #FFF)",
     backgroundClip: "text",
     WebkitBackgroundClip: "text",
     WebkitTextFillColor: "transparent",

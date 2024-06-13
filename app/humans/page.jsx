@@ -28,6 +28,7 @@ import nitya from "@/public/humansPage/nitya.jpg";
 
 // Mentors
 import aanchal from "@/public/humansPage/aanchal.jpeg";
+import principal from "@/public/Co-Ordinators/principalsrcas.jpeg";
 import HODimg from "@/public/Co-Ordinators/sumathi.png";
 import AssociateProf from "@/public/Co-Ordinators/praneesh.png";
 import AssociateProf2 from "@/public/Co-Ordinators/manoj.png";
@@ -90,7 +91,7 @@ export default function Team() {
     },
     {
       name: "Sarath P",
-      role: "Executive Member",
+      role: "Executive Member, Organizer",
       profilepic: Sarath,
       linkedin: "http://www.linkedin.com/in/thisisthesarath",
       instagram: "http://www.instagram.com/sarath.online",
@@ -229,6 +230,13 @@ export default function Team() {
   ];
 
   const mentorData = [
+    {
+      name: "Dr.B.L.Shivakumar",
+      profilepic: principal,
+      linkedin: "https://www.linkedin.com/in/",
+      instagram: "https://instagram.com/",
+      github: "https://github.com/",
+    },
     {
       name: "Dr.N.Sumathi",
       profilepic: HODimg,

@@ -2740,6 +2740,10 @@ scrollbar-thumb {
     width: auto;
   }
 
+  .lg\:max-w-\[100\%\] {
+    max-width: 100%;
+  }
+
   .lg\:max-w-\[25rem\] {
     max-width: 25rem;
   }

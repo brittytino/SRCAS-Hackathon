@@ -58,7 +58,7 @@ export default function Team() {
   const organizerData = [
     {
       name: "Tino Britty J",
-      role: "Chairman",
+      role: "Organizer",
       profilepic: chairman,
       linkedin: "https://www.linkedin.com/in/brittytino",
       instagram: "https://www.instagram.com/brittytino/",
@@ -66,7 +66,7 @@ export default function Team() {
     },    
     {
       name: "John Samuel",
-      role: "Vice Chairman",
+      role: "Organizer",
       profilepic: assistantChairman,
       linkedin: "https://www.linkedin.com/in/samjohnoffl",
       instagram: "https://www.instagram.com/samjohn_offl",
@@ -74,7 +74,7 @@ export default function Team() {
     },
     {
       name: "Pravin B",
-      role: "Secretary",
+      role: "Organizer",
       profilepic: secretary,
       linkedin: "https://www.linkedin.com/in/pravinboopathi/",
       instagram: "https://www.instagram.com/bpravin._/",
@@ -82,7 +82,7 @@ export default function Team() {
     },
     {
       name: "Kanishka C",
-      role: "Joint Secretary",
+      role: "Organizer",
       profilepic: viceChairman,
       linkedin: "https://www.linkedin.com/in/kaniskha-c-2124a5292/",
       instagram: "https://www.instagram.com/kaniskha_chandrasekar/",
@@ -90,7 +90,7 @@ export default function Team() {
     },
     {
       name: "Sarath P",
-      role: "Executive Member",
+      role: "Web Dev",
       profilepic: Sarath,
       linkedin: "http://www.linkedin.com/in/thisisthesarath",
       instagram: "http://www.instagram.com/sarath.online",
@@ -98,7 +98,7 @@ export default function Team() {
     },
     {
       name: "Aarthi S",
-      role: "Member",
+      role: "Organizer",
       profilepic: Aarthi,
       linkedin: "https://www.linkedin.com/in/aarthi-s-8914a9292?",
       instagram: "https://www.instagram.com/__.aarthi___?",
@@ -106,14 +106,14 @@ export default function Team() {
     },
     {
       name: "Balaguru K",
-      role: "Member",
+      role: "Content Creator",
       profilepic: Balaguru,
       linkedin: "https://www.linkedin.com/in/balaguru-k-22157727a?",
       github: "https://www.github.com"
     },
     {
       name: "Chittesh",
-      role: "Member",
+      role: "Designer",
       profilepic: Chittesh,
       linkedin: "https://www.linkedin.com/in/chittesh-undefined-753499306?",
       instagram: "https://www.instagram.com/chittesh___23?",
@@ -121,7 +121,7 @@ export default function Team() {
     },
     {
       name: "Gokul S",
-      role: "Member",
+      role: "Media",
       profilepic: Gokul,
       linkedin: "https://www.linkedin.com/in/gokul-saravanan-s-74bb9327b?",
       instagram: "https://www.instagram.com/lil_dodge5?",
@@ -129,7 +129,7 @@ export default function Team() {
     },
     {
       name: "Harini",
-      role: "Member",
+      role: "Content Creator",
       profilepic: harini,
       linkedin: "https://www.linkedin.com/in/harini-pechimuthu-1b47972b5",
       instagram: "https://www.instagram.com/harinipechimuthu?",
@@ -137,7 +137,7 @@ export default function Team() {
     },
     {
       name: "Logeshwaran V",
-      role: "Member",
+      role: "Designer",
       profilepic: logeshwaran,
       linkedin: "https://www.linkedin.com/in/logesh-waran-a42395227?",
       instagram: "https://www.instagram.com/aeksio__hen__vys?",
@@ -145,21 +145,21 @@ export default function Team() {
     },
     {
       name: "Nandita",
-      role: "Member",
+      role: "Volunteer",
       profilepic: Nandita,
       linkedin: "https://www.linkedin.com/in/nandita-s-a38948312?",
       github: "https://www.github.com"
     },
     {
       name: "Priyadharshini K",
-      role: "Member",
+      role: "Volunteer",
       profilepic: PriyaDharshini,
       linkedin: "https://www.linkedin.com/in/priyadharshini-k-784920275",
       github: "https://www.github.com"
     },
     {
       name: "Poornila I P",
-      role: "Member",
+      role: "Volunteer",
       profilepic: Poornila,
       linkedin: "https://www.linkedin.com/in/poornila-i-p-45b0b4292?",
       instagram: "https://www.instagram.com/click_.natural?",
@@ -167,21 +167,21 @@ export default function Team() {
     },
     {
       name: "Rishaba R U",
-      role: "Member",
+      role: "Social Media Manager",
       profilepic: Rishaba,
       linkedin: "https://www.linkedin.com/in/rishaba0305204?",
       github: "https://www.github.com"
     },
     {
       name: "Saratthi",
-      role: "Member",
+      role: "Media",
       profilepic: SriSaratthi,
       linkedin: "https://www.linkedin.com/in/saratthi-080555166",
       github: "https://www.github.com"
     },
     {
       name: "Srikanth R G",
-      role: "Member",
+      role: "Web Dev",
       profilepic: srikanth,
       linkedin: "https://www.linkedin.com/in/srikanth-r-g-544937283?",
       instagram: "https://www.instagram.com/spetsnaz_srikanth?",
@@ -189,14 +189,14 @@ export default function Team() {
     },
     {
       name: "Sujithaa J",
-      role: "Member",
+      role: "Content Creator",
       profilepic: Sujithaa,
       linkedin: "https://www.linkedin.com/in/sujithaa-j-41643b292?",
       github: "https://www.github.com"
     },
     {
       name: "Velan J",
-      role: "Member",
+      role: "UI UX",
       profilepic: Velan,
       linkedin: "https://www.linkedin.com/in/velan-jayashankar",
       instagram: "https://www.instagram.com/ig__velan__",
@@ -204,7 +204,7 @@ export default function Team() {
     },
     {
       name: "Vikaas K S",
-      role: "Member",
+      role: "Organizer",
       profilepic: Vikaas,
       linkedin: "https://www.linkedin.com/in/vikaas-k-s-7644a9292?",
       instagram: "https://www.instagram.com/vikaas_0304?",
@@ -212,7 +212,7 @@ export default function Team() {
     },
     {
       name: "Vishnuraj R",
-      role: "Member",
+      role: "Media",
       profilepic: Vishnuraj,
       linkedin: "https://www.linkedin.com/in/vishnuraj-r-a3229324b/",
       instagram: "https://www.instagram.com/vishnu._.rvr/",

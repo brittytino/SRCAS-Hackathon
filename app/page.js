@@ -197,7 +197,7 @@ export default function Home() {
   ];
 
   return (
-    <div className="overflow-x-hidden">
+   <div className="overflow-x-hidden">
       <Navbar />
       <div
         className="relative flex flex-col min-h-fit
@@ -208,11 +208,49 @@ export default function Home() {
             pt-16 gap-4 xl:pt-12 lg:gap-0"
         >
           <div className="flex flex-col items-start w-full lg:w-1/2">
+              <div className="flex flex-col items-start w-full lg:w-1/2">
+              <div className="flex justify-start items-center py-2 md:py-2.5 px-4 md:px-6"
+                style={{ border: "1.275px solid #FAF8ED" }}
+              >
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/en/thumb/d/db/Sri_Ramakrishna_College_of_Arts_and_Science.svg/1200px-Sri_Ramakrishna_College_of_Arts_and_Science.svg.png"
+                  alt="SRCAS Logo"
+                  className="w-[18rem] h-[9rem]"
+                />
+              </div>
+            </div>
+            
+          </div>
+          
+          <div className="flex flex-col items-start gap-3 w-full lg:items-end lg:w-1/2">
+            <div className="flex flex-col items-end w-full lg:w-1/2">
+              <div className="flex justify-end items-center py-2 md:py-2.5 px-4 md:px-6"
+                style={{ border: "1.275px solid #FAF8ED" }}
+              >
+                <div className="flex justify-center items-center gap-0">
+                  <img
+                    src="/ProClubLogo.png"
+                    alt="Programming Club Logo"
+                    className="w-[16rem] h-[8.5rem]"
+                  />
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+        <HackbyteLogo />
+
+        <div className="flex items-center justify-between gap-4 my-12">
+          <div className="flex flex-col items-start w-full lg:w-1/2">
             <ThemeTitle />
           </div>
+
+
           <div className="flex flex-col items-start gap-3 w-full lg:items-end lg:w-1/2">
             <p
-              className="text-[#FFF] text-[1.25rem] font-medium text-left 
+              className="text-[#FAF8ED] text-[1.25rem] font-medium text-left 
               lg:text-right lg:text-[1.5rem]"
             >
               Join us at SRCAS, August 14
@@ -234,70 +272,6 @@ export default function Home() {
                 <ArrowTopRightIcon className="w-5 h-5 ml-1" />
               </Button>
             </Link>
-          </div>
-        </div>
-
-        <HackbyteLogo />
-
-        <div className="flex items-center justify-between gap-4 my-12">
-          <div className="flex items-stretch">
-            <div
-              className="flex justify-center items-center py-2 md:py-2.5 px-4 md:px-6"
-              style={{ border: "1.275px solid #FAF8ED" }}
-            >
-              <div className="flex justify-center items-center gap-4">
-                <img
-                  src="/ProClubLogo.png"
-                  alt="Programming Club Logo"
-                  className="w-[4rem] h-[2.125rem]"
-                />
-                <p className="text-[#FAF8ED] text-[0.75rem] font-[600]">
-                  Organised by
-                  <br className="hidden md:block" /> Programming Club of
-                  SRCAS
-                </p>
-              </div>
-            </div>
-            <div
-              className="flex justify-center items-center py-2 md:py-2.5 px-4 md:px-6"
-              style={{ border: "1.275px solid #FAF8ED" }}
-            >
-              <div className="flex justify-center items-center">
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/en/thumb/d/db/Sri_Ramakrishna_College_of_Arts_and_Science.svg/1200px-Sri_Ramakrishna_College_of_Arts_and_Science.svg.png"
-                  alt="SRCAS Logo"
-                  className="w-[6rem] h-[3rem]"
-                />
-              </div>
-            </div>
-          </div>
-
-
-          <div className="hidden lg:flex flex-col items-end gap-4">
-            <p
-              className="text-[#FAF8ED] text-[1rem] xl:text-[1.25rem] 
-                font-semibold text-right"
-            >
-             We Contemplate to Create
-            </p>
-            <div className="flex gap-6">
-              <SocialMediaIcon
-                href="https://www.instagram.com/proclub_srcas/"
-                Icon={InstagramLogoIcon}
-              />
-              {/* <SocialMediaIcon
-                href="https://twitter.com/"
-                Icon={TwitterLogoIcon}
-              /> */}
-              <SocialMediaIcon
-                href="https://www.linkedin.com/"
-                Icon={LinkedInLogoIcon}
-              />
-              <SocialMediaIcon
-                href="https://discord.com"
-                Icon={DiscordLogoIcon}
-              />
-            </div>
           </div>
         </div>
 

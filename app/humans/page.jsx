@@ -355,14 +355,14 @@ export default function Team() {
                 border border-[#D1CAC7] px-4 py-1 mb-3"
             >
               <p
-                className="w-full text-[#C3C3C3] font-[Inter] 
+                className="w-full text-[#FFF] font-[Inter] 
                   text-center font-normal text-[1.25rem] tracking-[0.0625rem]"
               >
                 THE TEAM
               </p>
             </div>
             <p
-              className="text-[#F5F0D8] text-center text-[2.5rem] font-normal 
+              className="text-[#FFF] text-center text-[2.5rem] font-normal 
                 md:text-[4rem] xl:text-[5rem] md:leading-[4.5rem] xl:leading-[5.25rem]"
             >
               Meet the humans of

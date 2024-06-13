@@ -31,6 +31,7 @@ import aanchal from "@/public/humansPage/aanchal.jpeg";
 import HODimg from "@/public/Co-Ordinators/sumathi.png";
 import AssociateProf from "@/public/Co-Ordinators/praneesh.png";
 import AssociateProf2 from "@/public/Co-Ordinators/manoj.png";
+import Principal from "@/public/Co-ordinators/principalsrcas.jpeg";
 
 import FooterAnimation from "@/components/FooterAnimation";
 import Footer from "@/components/Footer";
@@ -230,7 +231,16 @@ export default function Team() {
 
   const mentorData = [
     {
+      name: "Dr.B.L.Shivakumar",
+      role: "Chief Patron",
+      profilepic: Principal,
+      linkedin: "https://www.linkedin.com/in/",
+      instagram: "https://instagram.com/",
+      github: "https://github.com/",
+    },
+    {
       name: "Dr.N.Sumathi",
+      role:"Mentor",
       profilepic: HODimg,
       linkedin: "https://www.linkedin.com/in/",
       instagram: "https://instagram.com/",
@@ -238,6 +248,7 @@ export default function Team() {
     },
     {
       name: "Dr.M.Praneesh",
+      role:"Mentor",
       profilepic: AssociateProf,
       linkedin: "https://www.linkedin.com/in/",
       instagram: "https://instagram.com/",
@@ -245,6 +256,7 @@ export default function Team() {
     },
     {
       name: "Mr.S.Manoj",
+      role:"Mentor",
       profilepic: AssociateProf2,
       linkedin: "https://www.linkedin.com/in/",
       instagram: "https://instagram.com/",

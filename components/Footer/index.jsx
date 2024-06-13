@@ -48,11 +48,11 @@ const Footer = () => {
             Icon={TwitterLogoIcon}
           /> */}
           <SocialMediaIcon
-            href="https://www.linkedin.com/"
+            href="https://www.linkedin.com/company/proclub-srcas"
             Icon={LinkedInLogoIcon}
           />
           <SocialMediaIcon
-            href="https://discord.gg/NTueHjdPn8"
+            href="https://discord.gg/"
             Icon={DiscordLogoIcon}
           />
         </div>

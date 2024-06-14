@@ -219,9 +219,9 @@ export default function Home() {
   ];
 
   return (
-    <div className="overflow-x-hidden">
-    
+   <div className="overflow-x-hidden">
       <Navbar />
+    
       <div
         className="relative flex flex-col min-h-fit p-4 pt-20 md:pt-32 md:px-12 xl:px-20 md:py-4"
       >

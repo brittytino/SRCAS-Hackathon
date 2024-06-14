@@ -78,12 +78,12 @@ const Partners = () => {
           px-6 md:px-16 lg:px-20 2xl:px-32 py-40"
       >
         <div className="flex flex-col items-center gap-4 mb-12">
-          <p className="text-[#F5F0D8] text-[2rem] font-normal md:text-[5rem]">
+          <p className="text-[#FFFFFF] text-[2rem] font-normal md:text-[5rem]">
             Partners
           </p>
           <div className="flex flex-col items-center gap-3 md:gap-4">
             <p
-              className="w-full lg:max-w-[80%] text-[#C3C3C3] font-[Inter] 
+              className="w-full lg:max-w-[80%] text-[#FFFFFF] font-[Inter] 
                 text-center font-normal text-[1.25rem] md:text-[1.5rem]"
             >
               We take pride in partnering with visionary organizations that share

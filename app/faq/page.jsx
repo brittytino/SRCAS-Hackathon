@@ -109,7 +109,7 @@ export default function FAQ() {
             <div className="flex flex-col items-start gap-8">
               <TextAnimation text="Everything you need , right here!" />
               <p
-                className="w-full text-[#C3C3C3] font-['Inter'] font-normal 
+                className="w-full text-[#FFFFFF] font-['Inter'] font-normal 
                   text-[1.25rem] sm:max-w-[32rem] lg:max-w-[40rem] xl:max-w-[50rem] 
                   2xl:max-w-[55rem] md:text-[1rem] xl:text-[1.5rem]"
               >

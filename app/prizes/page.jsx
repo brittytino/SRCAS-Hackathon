@@ -187,7 +187,7 @@ export default function Prizes() {
             </p>
             <div className="flex flex-col items-center gap-3 md:gap-4">
               <p
-                className="w-full lg:max-w-[100%] text-[#FFF] font-[Inter] 
+                className="w-full lg:max-w-[100%] text-[#FFFFFF] font-[Inter] 
                   text-center font-normal text-[1.25rem] md:text-[1.5rem]"
               >
                 Combine your skills and creativity to build something outstanding!

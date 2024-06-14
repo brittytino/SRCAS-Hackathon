@@ -163,16 +163,10 @@ export default function Home() {
       description: "Here the most basic rules are mentioned, go through the FAQ page to know more about the HackSphere' 24!",
       problems: [
         {
-          title: "Team up (4 max) for best results.",
-        },
-        {
-          title: "Be original, but use open-source tools ethically.",
-        },
-        {
-          title: "Max 4 teams only per institution.",
-        },
-        {
-          title: "Idea submission should be in the following PPT format [CLICK HERE TO DOWNLOAD]",
+          title: "->Team up (4 max) for best results.",
+          title: "->Be original, but use open-source tools ethically.",
+          title: "->Max 4 teams only per institution.",
+          title: "->Idea submission should be in the following PPT format [CLICK HERE TO DOWNLOAD]",
           link: "https://docs.google.com/presentation/d/1BB-OEiM0qulFVqKeKm4ekJ1VULCsgKFT/edit?usp=drivesdk&ouid=114882038934280859740&rtpof=true&sd=true"
         }
       ]

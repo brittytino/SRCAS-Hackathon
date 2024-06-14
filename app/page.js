@@ -157,6 +157,28 @@ export default function Home() {
     }
   ];
 
+  const rules = [
+    {
+      title: "Rules!",
+      description: "Here the most basic rules are mentioned, go through the FAQ page to know more about the HackSphere' 24!",
+      problems: [
+        {
+          title: "Team up (4 max) for best results.",
+        },
+        {
+          title: "Be original, but use open-source tools ethically.",
+        },
+        {
+          title: "Max 4 teams only per institution.",
+        },
+        {
+          title: "Idea submission should be in the following PPT format [CLICK HERE TO DOWNLOAD]",
+          link: "https://docs.google.com/presentation/d/1BB-OEiM0qulFVqKeKm4ekJ1VULCsgKFT/edit?usp=drivesdk&ouid=114882038934280859740&rtpof=true&sd=true"
+        }
+      ]
+    }
+  ];
+
   const aboutData = [
     {
       imgSrc: "/aboutPage/img1.svg",
@@ -198,10 +220,10 @@ export default function Home() {
 
   return (
     <div className="overflow-x-hidden">
+    
       <Navbar />
       <div
-        className="relative flex flex-col min-h-fit
-          p-4 pt-20 md:pt-32 md:px-12 xl:px-20 md:py-4"
+        className="relative flex flex-col min-h-fit p-4 pt-20 md:pt-32 md:px-12 xl:px-20 md:py-4"
       >
         <div
           className="flex flex-wrap justify-between items-center 
@@ -314,6 +336,7 @@ export default function Home() {
           </div>
         </div>
 
+
       </div>
 
       
@@ -321,6 +344,18 @@ export default function Home() {
 
 
       <div className="w-full flex flex-col bg-[#101010]">
+        <div className="flex justify-center items-center gap-20 mt-8 bg-black">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/en/thumb/d/db/Sri_Ramakrishna_College_of_Arts_and_Science.svg/1200px-Sri_Ramakrishna_College_of_Arts_and_Science.svg.png"
+            alt="SRCAS Logo"
+            className="w-[8rem] h-auto md:w-[16rem] md:h-auto"
+          />
+          <img
+            src="/ProClubLogo.png"
+            alt="Programming Club Logo"
+            className="w-[7rem] h-auto md:w-[14rem] md:h-auto"
+          />
+        </div>
         <div className="flex flex-col p-4 md:px-12 xl:px-20 py-16 md:py-24">
           <div
             className="grid grid-cols-1 gap-6 md:gap-8 md:grid-cols-2 
@@ -435,6 +470,46 @@ export default function Home() {
           </div>
         ))}
       </div>
+
+
+
+      <div className="bg-[#101010] flex flex-col min-h-screen p-4 md:pb-16 lg:px-[10%] md:pt-24 pt-16">
+        {rules.map((theme, index) => (
+          <div key={index} className="mb-12">
+            <div className="flex flex-col md:flex-row gap-12 md:gap-16 lg:gap-24">
+              {/* Left Half */}
+              <div className="w-full md:w-2/5 flex flex-col gap-5">
+                <div className="max-w-[448px] text-white text-3xl md:text-4xl font-medium leading-[44px]">
+                  {theme.title}
+                </div>
+                <div className="max-w-[700px] text-[#C3C3C3] font-['Inter'] font-normal text-lg leading-7">
+                  {theme.description}
+                </div>
+              </div>
+              
+              {/* Right Half */}
+              <div className="w-full md:w-3/5 flex flex-col gap-5">
+                {theme.problems.map((problem, problemIndex) => (
+                  <div key={problemIndex} className="mb-8">
+                    <div className="py-4 md:p-8">
+                      <div className="max-w-[592px] text-white text-2xl font-medium leading-7 transition-transform duration-300 ease-in-out transform hover:scale-105">
+                        {problem.link ? (
+                          <a href={problem.link} target="_blank" rel="noopener noreferrer" className="hover:underline">
+                            {problem.title}
+                          </a>
+                        ) : (
+                          problem.title
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+
 
 
 

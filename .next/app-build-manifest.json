@@ -18,11 +18,16 @@
       "static/css/app/not-found.css",
       "static/chunks/app/not-found.js"
     ],
-    "/humans/page": [
+    "/partners/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/humans/page.css",
-      "static/chunks/app/humans/page.js"
+      "static/css/app/partners/page.css",
+      "static/chunks/app/partners/page.js"
+    ],
+    "/_not-found/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/_not-found/page.js"
     ]
   }
 }

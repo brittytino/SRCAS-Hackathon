@@ -39,6 +39,11 @@ const normalSponsorsData = [
     sponsorimgsrc: deloitte,
   },
   {
+    sponsor: "Viyen Biotech",
+    category: "Knowledge Partner",
+    sponsorimgsrc: viyen,
+  },
+  {
     sponsor: "TCS",
     category: "Knowledge Partner",
     sponsorimgsrc: tcs,
@@ -47,11 +52,6 @@ const normalSponsorsData = [
     sponsor: "StartUpTN",
     category: "Knowledge Partner",
     sponsorimgsrc: startuptn,
-  },
-  {
-    sponsor: "Viyen Biotech",
-    category: "Knowledge Partner",
-    sponsorimgsrc: viyen,
   },
   {
     sponsor: "Devfolio",

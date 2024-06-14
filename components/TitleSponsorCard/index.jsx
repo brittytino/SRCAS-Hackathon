@@ -54,6 +54,9 @@ export default function TitleSponsorCard() {
               md:rounded-r-[8px] border-x border-b md:border-l-0 md:border-y 
               md:border-r border-[#FFFAEF]"
           >
+            <p className="text-[#C3C3C3] text-[1.25rem] md:text-[1.5rem] font-[Inter]">
+              Sponsered by
+            </p>
             <div className="w-full flex justify-between items-center">
               <p className="font-medium text-[2rem] xl:text-[2.25rem]">
                 SRCAS
@@ -65,9 +68,7 @@ export default function TitleSponsorCard() {
                 />
               </div>
             </div>
-            <p className="text-[#C3C3C3] text-[1.25rem] md:text-[1.5rem] font-[Inter]">
-              Title Sponsor
-            </p>
+            
             <p className="text-[#EAECF0] font-normal font-[Inter] text-[1rem] md:text[1.125rem]">
             Sri Ramakrishna College of Arts and Science is a College of Arts and Science in Coimbatore, Tamil Nadu, India.
              It was founded in 1987. At present, with 5000+ students, the college is offering 30+ programmes in Arts, Humanities, 

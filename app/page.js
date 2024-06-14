@@ -242,7 +242,7 @@ export default function Home() {
               <br />
               for an 2-4 in-person hackathon.
             </p>
-            <Link href="/prizes#logitech-tracks" passHref>
+            <Link href="devfolio.co" passHref>
               <Button
                 size="sm"
                 className="bg-[#FAF8ED] text-black text-[1.125rem] font-semibold p-6 

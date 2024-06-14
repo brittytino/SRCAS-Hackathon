@@ -106,7 +106,7 @@ export default function FAQ() {
             className="flex flex-col justify-between items-start sm:items-center
             gap-12 md:gap-0 md:flex-row md:items-start"
           >
-            <div className="flex flex-col items-start gap-8">
+            <div className="flex flex-col items-start gap-8 text-[#FFFFFF]">
               <TextAnimation text="Everything you need , right here!" />
               <p
                 className="w-full text-[#FFFFFF] font-['Inter'] font-normal 

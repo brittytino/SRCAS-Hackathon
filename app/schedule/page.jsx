@@ -33,8 +33,8 @@ export const metadata = {
   openGraph: {
     title: "Schedule | HackSphere",
     description:
-      "Check out the schedule for HackByte! Stay updated with the timeline of events and activities happening during SRCAS hackathon.",
-    url: "https://hackbyte.in/schedule",
+      "Check out the schedule for HackSphere! Stay updated with the timeline of events and activities happening during SRCAS hackathon.",
+    url: "https://hacksphere.vercel.app/schedule",
     images:
       "https://res.cloudinary.com/drtmfrghg/image/upload/v1708016443/opengraph-image_vkiopn.jpg",
     siteName: "HackSphere - SRCAS Hackathon",

@@ -23,7 +23,7 @@ export const metadata = {
     title: "Partners | HackSphere",
     description:
       "Explore the invaluable support from our esteemed sponsors and partners at HackSphere – the premier hackathon hosted by SRCAS. Discover their contributions and partnerships, playing a pivotal role in empowering the coding community.",
-    url: "https://hackbyte.in/partners",
+    url: "https://hacksphere.vercel.app/partners",
     images:
       "https://res.cloudinary.com/drtmfrghg/image/upload/v1708016443/opengraph-image_vkiopn.jpg",
     siteName: "HackSphere - SRCAS Hackathon",

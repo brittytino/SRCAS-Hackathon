@@ -15,7 +15,7 @@ export const metadata = {
     title: "Gallery | HackSphere",
     description:
       "Discover memorable moments from past HackSphere events at SRCAS, explore images, and feel the excitement of the coding community.",
-    url: "https://hackbyte.in/gallery",
+    url: "https://hacksphere.vercel.app/gallery",
     images:
       "https://res.cloudinary.com/drtmfrghg/image/upload/v1708016443/opengraph-image_vkiopn.jpg",
     siteName: "HackSphere - SRCAS Hackathon",
@@ -38,7 +38,7 @@ const Gallery = () => {
               className="w-full xl:max-w-[75%] text-[#C3C3C3] font-[Inter] 
                 text-center font-normal text-[1.25rem] md:text-[1.5rem]"
             >
-              Explore our gallery of memorable moments from HackByte events at
+              Explore our gallery of memorable moments from HackSphere events at
               IIITDMJ. Immerse in the vibrant coding community, witness
               innovation, and get inspired.
             </p>

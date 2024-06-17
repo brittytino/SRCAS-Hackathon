@@ -2,7 +2,7 @@ import Navbar from "@/components/Navbar";
 import ThemeTitle from "@/components/ThemeTitle";
 import { Button } from "@/components/ui/button";
 import { ArrowTopRightIcon } from "@radix-ui/react-icons";
-import { HackbyteLogo } from "@/components/HackbyteLogo";
+import { HacksphereLogo } from "@/components/HacksphereLogo";
 import TextAnimation from "@/components/TextAnimation";
 import {
   Accordion,
@@ -259,7 +259,7 @@ export default function Home() {
           </div>
         </div>
 
-        <HackbyteLogo />
+        <HacksphereLogo />
 
         <div className="flex items-center justify-between gap-4 my-12">
           <div className="flex items-stretch">

@@ -1,0 +1,65 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./components/FooterAnimation/index.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+.FooterAnimation_rotatingContainer__HzkId {
+  animation: FooterAnimation_rotateAnimation__nFGx3 8s linear infinite;
+}
+
+@keyframes FooterAnimation_rotateAnimation__nFGx3 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*!******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./components/Navbar/index.module.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************/
+.Navbar_hamburger__fI23R {
+  position:fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  cursor: pointer;
+  transition: all 0.25s;
+  border: 1.5px solid #9d9d9d;
+  border-radius: 2rem;
+  padding: 0.6rem 1.3rem;
+  row-gap: 0.31rem;
+}
+
+.Navbar_hamburgerTop__DzCKy,
+.Navbar_hamburgerMiddle__p2PAt,
+.Navbar_hamburgerBottom__1d677 {
+  width: 24px;
+  height: 2.5px;
+  top: 0;
+  left: 0;
+  background: #fff;
+  transform: rotate(0);
+  transition: all 0.5s;
+}
+
+.Navbar_hamburgerBottom__1d677 {
+  width: calc(100% - 8px);
+}
+.Navbar_open__RySTW {
+  border: none;
+  position: relative;
+  transform: rotate(90deg);
+}
+
+.Navbar_open__RySTW .Navbar_hamburgerTop__DzCKy {
+  transform: translateY(4px) rotate(45deg);
+}
+
+.Navbar_open__RySTW .Navbar_hamburgerMiddle__p2PAt {
+  transform: translateY(-4px) rotate(-45deg);
+}
+
+.Navbar_open__RySTW .Navbar_hamburgerBottom__1d677 {
+  display: none;
+}
+

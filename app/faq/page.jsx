@@ -18,7 +18,7 @@ export const metadata = {
   openGraph: {
     title: "FAQ | HackSphere",
     description: "Frequently asked questions about HackSphere.",
-    url: "https://hackbyte.in/faq",
+    url: "https://hacksphere.vercel.app/faq",
     images:
       "https://res.cloudinary.com/drtmfrghg/image/upload/v1708016443/opengraph-image_vkiopn.jpg",
     siteName: "HackSphere - SRCAS Hackathon",
@@ -119,7 +119,7 @@ export default function FAQ() {
             </div>
             <img
               className="w-44 h-44 md:hidden lg:block xl:h-60 xl:w-60 rotatingContainer"
-              src="/hackbyte.png"
+              src="/hacksphere.png"
               alt="Get in touch"
             />
           </div>

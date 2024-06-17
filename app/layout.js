@@ -6,17 +6,17 @@ import "./clash_grotesk.css";
 export const metadata = {
   title: "HackSphere - SRCAS Hackathon",
   description:
-    "HackByte is the IIITDMJ's student-run hackathon, which centers on bringing developers and problem solvers from different foundations together and enables them to develop projects that can bring out an impact.",
-  keywords: "hackathon, IIITDMJ, hackbyte, coding, programming, tech",
-  url: "https://hackbyte.in",
+    "HackSphere is the SRCAS student-run hackathon, which centers on bringing developers and problem solvers from different foundations together and enables them to develop projects that can bring out an impact.",
+  keywords: "hackathon, SRCAS, Hacksphere, coding, programming, tech",
+  url: "https://hacksphere.vercel.app",
   openGraph: {
     title: "HackSphere - SRCAS Hackathon",
     description:
-      "HackByte is the IIITDMJ's student-run hackathon, which centers on bringing developers and problem solvers from different foundations together and enables them to develop projects that can bring out an impact.",
-    url: "https://hackbyte.in",
+      "Hacksphere is the SRCAS student-run hackathon, which centers on bringing developers and problem solvers from different foundations together and enables them to develop projects that can bring out an impact.",
+    url: "https://hacksphere.vercel.app",
     images:
       "https://res.cloudinary.com/drtmfrghg/image/upload/v1708016443/opengraph-image_vkiopn.jpg",
-    siteName: "HackByte - IIITDMJ Hackathon",
+    siteName: "HackSphere - SRCAS Hackathon",
     locale: "en_US",
     type: "website",
   },

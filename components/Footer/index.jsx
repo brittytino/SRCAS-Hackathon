@@ -43,10 +43,6 @@ const Footer = () => {
             href="https://www.instagram.com/proclub_srcas/"
             Icon={InstagramLogoIcon}
           />
-          {/* <SocialMediaIcon
-            href="https://twitter.com/HackbyteTPC"
-            Icon={TwitterLogoIcon}
-          /> */}
           <SocialMediaIcon
             href="https://www.linkedin.com/company/proclub-srcas"
             Icon={LinkedInLogoIcon}

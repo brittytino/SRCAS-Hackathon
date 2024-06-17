@@ -43,7 +43,7 @@ export const metadata = {
     title: "Prizes | HackSphere",
     description:
       "Discover the exciting prizes at HackSphere! Explore the rewards, recognition, and opportunities awaiting you. Connect with us for more information on SRCAS hackathon.",
-    url: "https://hackbyte.in/prizes",
+    url: "https://hacksphere.vercel.app/prizes",
     images:
       "https://res.cloudinary.com/drtmfrghg/image/upload/v1708016443/opengraph-image_vkiopn.jpg",
     siteName: "HackSphere - SRCAS Hackathon",
@@ -141,7 +141,7 @@ const logitechTracksData = [
     imgSrc: img2,
     title: "Trending Tweet",
     description:
-      "Tweet about the most fun and interesting moments during HackByte, tag HackByte and Logitech. The one with the maximum engagement gets the amazing POP Mouse.",
+      "Tweet about the most fun and interesting moments during HackSphere, tag HackSphere. The one with the maximum engagement gets the amazing POP Mouse.",
     prize: "Logitech POP Mouse",
     prizeImg: prizeImg2,
     borderColor: "#E5F1FF",
@@ -261,7 +261,7 @@ export default function Prizes() {
                     className="text-[#C3C3C3] text-[1.25rem] font-normal 
                       text-center md:text-left"
                   >
-                    Best performing All-Girls Team at HackByte
+                    Best performing All-Girls Team at HackSphere
                   </p>
                 </div>
               </div>

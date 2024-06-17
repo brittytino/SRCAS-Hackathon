@@ -184,11 +184,11 @@ export default function Schedule() {
       >
         <div className="w-full flex flex-col gap-6 xl:gap-8">
           <div className="flex flex-col items-center gap-4">
-            <p className="text-[#F5F0D8] font-normal text-[2.25rem] md:text-[5rem]">
+            <p className="text-[#FFFFFF] font-normal text-[2.25rem] md:text-[5rem]">
               Show Sequence
             </p>
             <p
-              className="w-full xl:max-w-[80%] text-[#C3C3C3] font-[Inter] 
+              className="w-full xl:max-w-[80%] text-[#FFFFFF] font-[Inter] 
                 text-center font-normal text-[1.25rem] md:text-[1.5rem]"
             >
               Join us for a packed day featuring coding challenges and networking sessions. 

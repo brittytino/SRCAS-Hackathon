@@ -55,7 +55,7 @@ export default function TitleSponsorCard() {
               md:border-r border-[#FFFAEF]"
           >
             <p className="text-[#C3C3C3] text-[1.25rem] md:text-[1.5rem] font-[Inter]">
-              Sponsered by
+              Hosted by
             </p>
             <div className="w-full flex justify-between items-center">
               <p className="font-medium text-[2rem] xl:text-[2.25rem]">

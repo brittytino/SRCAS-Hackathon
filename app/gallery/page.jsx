@@ -39,7 +39,7 @@ const Gallery = () => {
                 text-center font-normal text-[1.25rem] md:text-[1.5rem]"
             >
               Explore our gallery of memorable moments from HackSphere events at
-              IIITDMJ. Immerse in the vibrant coding community, witness
+              SRCAS. Immerse in the vibrant coding community, witness
               innovation, and get inspired.
             </p>
           </div>
@@ -74,9 +74,8 @@ const Gallery = () => {
               text-white font-normal md:leading-[8rem] lg:leading-[10rem] 
               tracking-tighter md:tracking-[-0.2rem]"
           >
-            Empower
-            <br /> Your Digital
-            <br /> Odyssey!
+            Code to
+            <br /> Innovate!
           </p>
 
           <FooterAnimation />

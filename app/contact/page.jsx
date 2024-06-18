@@ -149,8 +149,6 @@ export default function Contact() {
                     Coimbatore (Gandhipuram Main Bus Stand)
                   </span>{" "}
                   is around 6km from the venue.
-                  {/* , auto fare is usually around{" "}
-                  <span className="font-[600]">₹100-₹250</span>. */}
                 </p>
               </div>
             </div>

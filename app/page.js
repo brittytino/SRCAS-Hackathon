@@ -73,31 +73,31 @@ export default function Home() {
     "/footer/sdg/17.png",
   ];
 
-const themes = [
+  const themes = [
     {
-      title: "Theme 1: Education and Empowerment",
-      description: "Explore innovative solutions for education and empowerment.",
+      title: "Theme 1: Renewable Energy and Smart Grids",
+      description: "Explore innovative solutions for integrating renewable energy sources into smart grids to promote sustainable and efficient energy management.",
       problems: [
         {
-          title: "T1PS01: Develop a Voice-Based Data Entry System for Accessibility",
-          description: "Create a system enabling individuals with limited typing abilities or visual impairments to input data using natural language commands, promoting accessibility in digital interactions.",
-          expectedOutcome: "Creation of a voice-based data entry system that enables individuals with limited typing abilities or visual impairments to interact with digital platforms using natural language. This system will promote digital inclusion, aiming to increase digital accessibility for 1 million users globally.",
-          SDG: "SDG 10 - Reduced Inequalities",
-          type: "Software"
+              title: "T1PS01: Decentralized Renewable Energy Systems",
+              description: "Develop a decentralized renewable energy system that integrates solar, wind, and other renewable sources into local energy grids. This system should optimize energy distribution and storage at the community level.",
+              expectedOutcome: "Creation of a decentralized energy system that integrates various renewable sources, reducing dependency on centralized power plants and fossil fuels. This system will increase the adoption of renewable energy by 30% in targeted communities and decrease energy costs by 20%.",
+              SDG: "SDG 7 - Affordable and Clean Energy, SDG 11 - Sustainable Cities and Communities",
+              type: "Hardware and Software (any one of the solution is enough)",
         },
         {
-          title: "T1PS02: Create a Microfinance Platform for Women Entrepreneurs",
-          description: "Establish a blockchain-powered platform to provide women entrepreneurs in underserved communities with access to credit, financial literacy resources, and mentorship, empowering gender equality and economic growth.",
-          expectedOutcome: "Establishment of a blockchain-powered microfinance platform providing women entrepreneurs in underserved communities with access to credit, financial literacy resources, and mentorship. This platform will empower gender equality and economic growth, with a target of supporting 100,000 women entrepreneurs and increasing their business success rates by 40%.",
-          SDG: "SDG 5 - Gender Equality, SDG 8 - Decent Work and Economic Growth",
-          type: "Software"
+          title: "T1PS02: AI-Driven Energy Management Platforms",
+          description: "Create an AI-driven platform for smart energy management that monitors and optimizes energy usage in real-time for residential and commercial buildings. The platform should also predict and manage peak loads to enhance grid stability.",
+          expectedOutcome: "Development of an AI-driven energy management platform that reduces energy consumption by 15% and enhances grid stability by predicting and managing peak loads. This platform will contribute to more efficient energy use and lower energy bills for users.",
+          SDG: "SDG 7 - Affordable and Clean Energy, SDG 9 - Industry, Innovation, and Infrastructure",
+          type: "Software",
         },
         {
-          title: "T1PS03: Digital Reputation Management",
-          description: "Offer tools and services to monitor and manage online reputation across social media and search engine results, protecting brand integrity and promoting responsible digital citizenship.",
-          expectedOutcome: "Development of tools and services for monitoring and managing online reputations across social media and search engines. This service will protect brand integrity and promote responsible digital citizenship, aiming to reduce negative online incidents and improve reputation scores for 5,000 individuals and businesses by 30%.",
-          SDG: "SDG 16 - Peace, Justice, and Strong Institutions",
-          type: "Software"
+          title: "T1PS03: Blockchain for Renewable Energy Trading",
+          description: "Implement a blockchain-based platform for peer-to-peer renewable energy trading. This platform will allow individuals and businesses to buy, sell, and trade excess renewable energy directly, promoting decentralized energy markets.",
+          expectedOutcome: "Establishment of a blockchain-based energy trading platform that facilitates peer-to-peer trading of renewable energy. This will increase the efficiency of energy markets, empower consumers, and potentially reduce energy waste by 25%.",
+          SDG: "SDG 7 - Affordable and Clean Energy, SDG 12 - Responsible Consumption and Production",
+          type: "Software",
         }
       ]
     },
@@ -129,34 +129,33 @@ const themes = [
       ]
     },
     {
-      title: "Theme 3: Smart Renewable Energy",
-      description: "Explore innovative solutions for integrating renewable energy sources to promote sustainable and efficient energy management.",
+      title: "Theme 3: Education and Empowerment",
+      description: "Explore innovative solutions for education and empowerment.",
       problems: [
         {
-              title: "T3PS01: Decentralized Renewable Energy Systems",
-              description: "Develop a decentralized renewable energy system that integrates solar, wind, and other renewable sources into local energy grids. This system should optimize energy distribution and storage at the community level.",
-              expectedOutcome: "Creation of a decentralized energy system that integrates various renewable sources, reducing dependency on centralized power plants and fossil fuels. This system will increase the adoption of renewable energy by 30% in targeted communities and decrease energy costs by 20%.",
-              SDG: "SDG 7 - Affordable and Clean Energy, SDG 11 - Sustainable Cities and Communities",
-              type: "Hardware and Software (any one of the solution is enough)",
+          title: "T3PS01: Develop a Voice-Based Data Entry System for Accessibility",
+          description: "Create a system enabling individuals with limited typing abilities or visual impairments to input data using natural language commands, promoting accessibility in digital interactions.",
+          expectedOutcome: "Creation of a voice-based data entry system that enables individuals with limited typing abilities or visual impairments to interact with digital platforms using natural language. This system will promote digital inclusion, aiming to increase digital accessibility for 1 million users globally.",
+          SDG: "SDG 10 - Reduced Inequalities",
+          type: "Software"
         },
         {
-          title: "T3PS02: AI-Driven Energy Management Platforms",
-          description: "Create an AI-driven platform for smart energy management that monitors and optimizes energy usage in real-time for residential and commercial buildings. The platform should also predict and manage peak loads to enhance grid stability.",
-          expectedOutcome: "Development of an AI-driven energy management platform that reduces energy consumption by 15% and enhances grid stability by predicting and managing peak loads. This platform will contribute to more efficient energy use and lower energy bills for users.",
-          SDG: "SDG 7 - Affordable and Clean Energy, SDG 9 - Industry, Innovation, and Infrastructure",
-          type: "Software",
+          title: "T3PS02: Create a Microfinance Platform for Women Entrepreneurs",
+          description: "Establish a blockchain-powered platform to provide women entrepreneurs in underserved communities with access to credit, financial literacy resources, and mentorship, empowering gender equality and economic growth.",
+          expectedOutcome: "Establishment of a blockchain-powered microfinance platform providing women entrepreneurs in underserved communities with access to credit, financial literacy resources, and mentorship. This platform will empower gender equality and economic growth, with a target of supporting 100,000 women entrepreneurs and increasing their business success rates by 40%.",
+          SDG: "SDG 5 - Gender Equality, SDG 8 - Decent Work and Economic Growth",
+          type: "Software"
         },
         {
-          title: "T3PS03: Blockchain for Renewable Energy Trading",
-          description: "Implement a blockchain-based platform for peer-to-peer renewable energy trading. This platform will allow individuals and businesses to buy, sell, and trade excess renewable energy directly, promoting decentralized energy markets.",
-          expectedOutcome: "Establishment of a blockchain-based energy trading platform that facilitates peer-to-peer trading of renewable energy. This will increase the efficiency of energy markets, empower consumers, and potentially reduce energy waste by 25%.",
-          SDG: "SDG 7 - Affordable and Clean Energy, SDG 12 - Responsible Consumption and Production",
-          type: "Software",
+          title: "T3PS03: Digital Reputation Management",
+          description: "Offer tools and services to monitor and manage online reputation across social media and search engine results, protecting brand integrity and promoting responsible digital citizenship.",
+          expectedOutcome: "Development of tools and services for monitoring and managing online reputations across social media and search engines. This service will protect brand integrity and promote responsible digital citizenship, aiming to reduce negative online incidents and improve reputation scores for 5,000 individuals and businesses by 30%.",
+          SDG: "SDG 16 - Peace, Justice, and Strong Institutions",
+          type: "Software"
         }
       ]
-    },
+    }
   ];
-
 
   const rules = [
   {

@@ -183,7 +183,7 @@ export default function Home() {
         title: "Follow guidelines for a smooth experience."
       }
     ]
-  },
+  }
 ];
 
   return (

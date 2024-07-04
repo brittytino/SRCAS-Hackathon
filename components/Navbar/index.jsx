@@ -5,7 +5,6 @@ import { usePathname } from "next/navigation";
 import classes from "./index.module.css";
 import Link from "next/link";
 import Image from "next/image";
-import HBMobileLogo from "@/public/HBMobileLogo.svg";
 import MobileLogo from "@/public/mobileLogo.png";
 import { AnimatePresence, motion } from "framer-motion";
 

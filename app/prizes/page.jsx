@@ -27,7 +27,7 @@ export const metadata = {
   description:
     "Discover the exciting prizes at HackSphere! Explore the rewards, recognition, and opportunities awaiting you. Connect with us for more information on  hackathon.",
   keywords:
-    "Hackathon prizes, Rewards, Hackathon, , HackSphere, Coding, Programming, Tech",
+    "Hackathon prizes, Rewards, Hackathon, HackSphere, Coding, Programming, Tech",
   openGraph: {
     title: "Prizes | HackSphere",
     description:

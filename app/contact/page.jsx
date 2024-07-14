@@ -8,12 +8,12 @@ import "./page.css";
 export const metadata = {
   title: "Contact | HackSphere",
   description:
-    "Connect with us at HackSphere! Reach out for assistance, questions, or just to say hello. Find information on reaching SRCAS, including travel options.",
+    "Connect with us at HackSphere! Reach out for assistance, questions, or just to say hello. Find information on reaching , including travel options.",
   keywords: "contact, HackSphere, reach us, get in touch",
   openGraph: {
     title: "Contact | HackSphere",
     description:
-      "Connect with us at HackSphere! Reach out for assistance, questions, or just to say hello. Find information on reaching SRCAS, including travel options.",
+      "Connect with us at HackSphere! Reach out for assistance, questions, or just to say hello. Find information on reaching , including travel options.",
     url: "https://hacksphere.vercel.app/contact",
     images:
       "https://res.cloudinary.com/drtmfrghg/image/upload/v1708016443/opengraph-image_vkiopn.jpg",

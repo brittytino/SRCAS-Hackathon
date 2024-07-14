@@ -4,19 +4,19 @@ import "react-toastify/dist/ReactToastify.css";
 import "./clash_grotesk.css";
 
 export const metadata = {
-  title: "HackSphere - SRCAS Hackathon",
+  title: "HackSphere - Hackathon",
   description:
-    "HackSphere is the SRCAS student-run hackathon, which centers on bringing developers and problem solvers from different foundations together and enables them to develop projects that can bring out an impact.",
-  keywords: "hackathon, SRCAS, Hacksphere, coding, programming, tech",
+    "HackSphere is the  student-run hackathon, which centers on bringing developers and problem solvers from different foundations together and enables them to develop projects that can bring out an impact.",
+  keywords: "hackathon, , Hacksphere, coding, programming, tech",
   url: "https://hacksphere.vercel.app",
   openGraph: {
-    title: "HackSphere - SRCAS Hackathon",
+    title: "HackSphere - Hackathon",
     description:
-      "Hacksphere is the SRCAS student-run hackathon, which centers on bringing developers and problem solvers from different foundations together and enables them to develop projects that can bring out an impact.",
+      "Hacksphere is the  student-run hackathon, which centers on bringing developers and problem solvers from different foundations together and enables them to develop projects that can bring out an impact.",
     url: "https://hacksphere.vercel.app",
     images:
       "https://res.cloudinary.com/drtmfrghg/image/upload/v1708016443/opengraph-image_vkiopn.jpg",
-    siteName: "HackSphere - SRCAS Hackathon",
+    siteName: "HackSphere - Hackathon",
     locale: "en_US",
     type: "website",
   },

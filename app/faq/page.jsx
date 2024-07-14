@@ -14,7 +14,7 @@ import "./page.css";
 export const metadata = {
   title: "FAQ | HackSphere",
   description: "Frequently asked questions about HackSphere.",
-  keywords: "FAQ, HackSphere, , Hackathon",
+  keywords: "FAQ, HackSphere, Hackathon",
   openGraph: {
     title: "FAQ | HackSphere",
     description: "Frequently asked questions about HackSphere.",

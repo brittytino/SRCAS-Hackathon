@@ -14,14 +14,14 @@ import "./page.css";
 export const metadata = {
   title: "FAQ | HackSphere",
   description: "Frequently asked questions about HackSphere.",
-  keywords: "FAQ, HackSphere, SRCAS, Hackathon",
+  keywords: "FAQ, HackSphere, , Hackathon",
   openGraph: {
     title: "FAQ | HackSphere",
     description: "Frequently asked questions about HackSphere.",
     url: "https://hacksphere.vercel.app/faq",
     images:
       "https://res.cloudinary.com/drtmfrghg/image/upload/v1708016443/opengraph-image_vkiopn.jpg",
-    siteName: "HackSphere - SRCAS Hackathon",
+    siteName: "HackSphere -  Hackathon",
     type: "website",
     locale: "en_US",
   },

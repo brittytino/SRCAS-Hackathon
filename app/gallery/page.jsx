@@ -8,17 +8,17 @@ import Footer from "@/components/Footer";
 export const metadata = {
   title: "Gallery | HackSphere",
   description:
-    "Discover memorable moments from past HackSphere events at SRCAS, explore images, and feel the excitement of the coding community.",
+    "Discover memorable moments from past HackSphere events at , explore images, and feel the excitement of the coding community.",
   keywords:
-    "Hackathon, SRCAS, HackSphere, Coding, Programming, Tech, Gallery, Photos, Videos, Past Events, Previous Events",
+    "Hackathon, , HackSphere, Coding, Programming, Tech, Gallery, Photos, Videos, Past Events, Previous Events",
   openGraph: {
     title: "Gallery | HackSphere",
     description:
-      "Discover memorable moments from past HackSphere events at SRCAS, explore images, and feel the excitement of the coding community.",
+      "Discover memorable moments from past HackSphere events at , explore images, and feel the excitement of the coding community.",
     url: "https://hacksphere.vercel.app/gallery",
     images:
       "https://res.cloudinary.com/drtmfrghg/image/upload/v1708016443/opengraph-image_vkiopn.jpg",
-    siteName: "HackSphere - SRCAS Hackathon",
+    siteName: "HackSphere -  Hackathon",
     type: "website",
     locale: "en_US",
   },

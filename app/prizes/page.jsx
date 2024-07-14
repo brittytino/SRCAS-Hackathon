@@ -25,17 +25,17 @@ import Footer from "@/components/Footer";
 export const metadata = {
   title: "Prizes | HackSphere",
   description:
-    "Discover the exciting prizes at HackSphere! Explore the rewards, recognition, and opportunities awaiting you. Connect with us for more information on SRCAS hackathon.",
+    "Discover the exciting prizes at HackSphere! Explore the rewards, recognition, and opportunities awaiting you. Connect with us for more information on  hackathon.",
   keywords:
-    "Hackathon prizes, Rewards, Hackathon, SRCAS, HackSphere, Coding, Programming, Tech",
+    "Hackathon prizes, Rewards, Hackathon, , HackSphere, Coding, Programming, Tech",
   openGraph: {
     title: "Prizes | HackSphere",
     description:
-      "Discover the exciting prizes at HackSphere! Explore the rewards, recognition, and opportunities awaiting you. Connect with us for more information on SRCAS hackathon.",
+      "Discover the exciting prizes at HackSphere! Explore the rewards, recognition, and opportunities awaiting you. Connect with us for more information on  hackathon.",
     url: "https://hacksphere.vercel.app/prizes",
     images:
       "https://res.cloudinary.com/drtmfrghg/image/upload/v1708016443/opengraph-image_vkiopn.jpg",
-    siteName: "HackSphere - SRCAS Hackathon",
+    siteName: "HackSphere -  Hackathon",
     type: "website",
     locale: "en_US",
   },

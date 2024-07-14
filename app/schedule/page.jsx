@@ -29,7 +29,7 @@ export const metadata = {
   description:
     "Check out the schedule for HackSphere! Stay updated with the timeline of events and activities happening during  Hackathon.",
   keywords:
-    "Hackathon schedule, Timeline, Events, , Hacksphere, Coding, Programming, Tech",
+    "Hackathon schedule, Timeline, Events, Hacksphere, Coding, Programming, Tech",
   openGraph: {
     title: "Schedule | HackSphere",
     description:

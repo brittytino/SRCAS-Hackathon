@@ -7,7 +7,7 @@ export const metadata = {
   title: "HackSphere - Hackathon",
   description:
     "HackSphere is the  student-run hackathon, which centers on bringing developers and problem solvers from different foundations together and enables them to develop projects that can bring out an impact.",
-  keywords: "hackathon, , Hacksphere, coding, programming, tech",
+  keywords: "hackathon, Hacksphere, coding, programming, tech",
   url: "https://hacksphere.vercel.app",
   openGraph: {
     title: "HackSphere - Hackathon",

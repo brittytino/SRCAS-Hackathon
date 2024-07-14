@@ -27,17 +27,17 @@ import Footer from "@/components/Footer";
 export const metadata = {
   title: "Schedule | HackSphere",
   description:
-    "Check out the schedule for HackSphere! Stay updated with the timeline of events and activities happening during SRCAS Hackathon.",
+    "Check out the schedule for HackSphere! Stay updated with the timeline of events and activities happening during  Hackathon.",
   keywords:
-    "Hackathon schedule, Timeline, Events, SRCAS, Hacksphere, Coding, Programming, Tech",
+    "Hackathon schedule, Timeline, Events, , Hacksphere, Coding, Programming, Tech",
   openGraph: {
     title: "Schedule | HackSphere",
     description:
-      "Check out the schedule for HackSphere! Stay updated with the timeline of events and activities happening during SRCAS hackathon.",
+      "Check out the schedule for HackSphere! Stay updated with the timeline of events and activities happening during  hackathon.",
     url: "https://hacksphere.vercel.app/schedule",
     images:
       "https://res.cloudinary.com/drtmfrghg/image/upload/v1708016443/opengraph-image_vkiopn.jpg",
-    siteName: "HackSphere - SRCAS Hackathon",
+    siteName: "HackSphere -  Hackathon",
     type: "website",
     locale: "en_US",
   },

@@ -10,7 +10,7 @@ export const metadata = {
   description:
     "Discover memorable moments from past HackSphere events at , explore images, and feel the excitement of the coding community.",
   keywords:
-    "Hackathon, , HackSphere, Coding, Programming, Tech, Gallery, Photos, Videos, Past Events, Previous Events",
+    "Hackathon, HackSphere, Coding, Programming, Tech, Gallery, Photos, Videos, Past Events, Previous Events",
   openGraph: {
     title: "Gallery | HackSphere",
     description:

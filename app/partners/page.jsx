@@ -18,7 +18,7 @@ export const metadata = {
   description:
     "Explore the invaluable support from our esteemed sponsors and partners at HackSphere – the premier hackathon hosted by . Discover their contributions and partnerships, playing a pivotal role in empowering the coding community.",
   keywords:
-    "Sponsors, Partners, Hackathon, , HackSphere, Coding, Programming, Tech, Collaboration, Innovation, Community Support, Technology Events",
+    "Sponsors, Partners, Hackathon, HackSphere, Coding, Programming, Tech, Collaboration, Innovation, Community Support, Technology Events",
   openGraph: {
     title: "Partners | HackSphere",
     description:

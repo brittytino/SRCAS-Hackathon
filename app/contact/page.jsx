@@ -17,7 +17,7 @@ export const metadata = {
     url: "https://hacksphere.vercel.app/contact",
     images:
       "https://res.cloudinary.com/drtmfrghg/image/upload/v1708016443/opengraph-image_vkiopn.jpg",
-    siteName: "HackSphere - SRCAS Hackathon",
+    siteName: "HackSphere -  Hackathon",
     type: "website",
     locale: "en_US",
   },
